@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Carmen Cusrtido  -- Designer
+    Antonio Espinosa -- Webmaster -- https://twitter.com/antespi
+
+# THANKS
+
+    Augusto Gastro bar -- https://es-la.facebook.com/augustogastrobar/
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Modernizr, Normalize.css
