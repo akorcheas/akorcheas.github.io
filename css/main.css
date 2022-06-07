@@ -15,6 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+
 }
 
 /*
@@ -86,6 +87,33 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+.header {
+  background-color: #e20613;
+  color: white;
+}
+
+.header .logo {
+  height: 50px;
+  padding: 8px;
+}
+.header .title {
+  font-family: 'IM Fell Double Pica', serif;
+  font-size: 1.4em;
+}
+
+.newsletter {
+  background-color: #e20613;
+}
+
+.banner {
+  background-color: #fff;
+}
+
+.footer {
+  background-color: #000;
+  color: #808080;
+}
 
 /* ==========================================================================
    Helper classes
