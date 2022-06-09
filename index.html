@@ -1,43 +1,141 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="es">
 
 <head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Akorcheas</title>
+    <meta name="description" content="Asociación Akorcheas. Vamos a inundarlo todo de buena música. ¡La Sierra Oeste de Madrid se mueve!">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+    <!-- Normalize -->
+    <link rel="stylesheet" href="css/normalize.css">
 
-  <meta name="theme-color" content="#fafafa">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&display=swap" >
+    <link href="https://fonts.googleapis.com/css2?family=Antonio&display=swap" rel="stylesheet">
+
+    <!-- Mailchimp -->
+    <link rel="stylesheet" href="//cdn-images.mailchimp.com/embedcode/classic-10_7_dtp.css" type="text/css">
+    <link rel="stylesheet" href="css/mailchimp.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Custom -->
+    <link rel="stylesheet" href="css/main.css">
+
+
+    <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
+    <div class="header">
+        <img src="icon.png" class="logo">
+        <span class="title">Asociación Akorcheas</span>
+    </div>
 
-  <!-- Add your site or application content here -->
-  <h1>Web de la Asociación Korcheas</h1>
-  <p>En construcción</p>
+    <div class="banner container-fluid text-center">
+        <h1>Vamos a inundarlo todo de BUENA MÚSICA</h1>
+        <img src="img/bg-home.png" class="img-fluid">
+        <h2>¡La sierra oeste de Madrid se mueve!</h2>
+    </div>
 
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+    <div class="newsletter container-fluid">
+        <!-- Begin Mailchimp Signup Form -->
+        <h2 class="p-2">¡Entérate de todo!</h2>
+        <form action="https://akorcheas.us11.list-manage.com/subscribe/post?u=850c08191088b3e735357f64f&amp;id=d1f1e7d01e" 
+              method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" 
+              class="row g-3 needs-validation" target="_blank" novalidate>
+            <div class="col-lg-6">
+                <div class="form-floating">
+                    <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" required>
+                    <label class="form-label" for="mce-EMAIL">Email</label>
+                    <div class="invalid-feedback">
+                        Por favor, indica tu correo electrónico
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="form-floating">
+                    <input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME" required>
+                    <label class="form-label" for="mce-FNAME">Nombre</label>
+                    <div class="invalid-feedback">
+                        Por favor, indica tu nombre para poder dirigirnos a ti
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input type="checkbox" id="gdpr_46296" name="gdpr[46296]" value="Y" class="form-check-input" required>
+                    <label class="form-check-label" for="gdpr_46296">
+                        <span>Doy mi consentimiento para el tratamiento de mis datos personales con la finalidad de recibir información
+                            a través de correo electrónico de las actividades y eventos que organiza Akorcheas.
+                            Podrás darte de baja en cualquier momento haciendo clic en el enlace que siempre está al final de todos los emails que te enviamos. 
+                            Para más información revisa nuestra <a href="privacy.html" target="_blank">política de privacidad</a>
+                        </span>
+                    </label>
+                    <div class="invalid-feedback">
+                        Debes dar tu consentimiento para poder darte de alta.
+                    </div>
+                </div>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'G-04J06YVYJT', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+                <p>
+                    Usamos <a href="http://eepurl.com/h3Hh0b" title="Mailchimp - email marketing made easy and fun" target="_blank">Mailchimp</a> 
+                    como plataforma de marketing. Haciendo clic en el botón "Apúntame", aceptas que tus datos personales se envíen a 
+                    Mailchimp. Puedes revisar la política de privacidad de Mailshimp <a href="https://mailchimp.com/legal/terms" target="_blank">aqui.</a>
+                </p>
+            </div>
+            <div class="col-12 text-end pb-3">
+                <input type="submit" value="Apúntame" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
+            </div>
+
+        </form>
+        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+        <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+        <!--End mc_embed_signup-->
+    </div>
+
+    <div class="footer container-fluid">
+        <div class="row p-3">
+            <div class="col-6">
+                <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.es" target="_blank">
+                    <img src="img/cc-by-nc-sa.png"></a> (CC) 2022 - Akorcheas
+            </div>
+            <div class="col-6">
+                <a href="privacy.html">Política de privacidad</a><br>
+                <a href="cookies.html">Política de cookies</a>
+            </div>
+        </div>
+        <div class="row p-2">
+    </div>
+
+
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-04J06YVYJT"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-04J06YVYJT');
+    </script>
 </body>
 
 </html>

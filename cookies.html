@@ -16,25 +16,41 @@
     <link rel="apple-touch-icon" href="icon.png">
     <!-- Place favicon.ico in the root directory -->
 
-
+    <!-- Normalize -->
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&display=swap" >
+
+    <!-- Mailchimp -->
     <link rel="stylesheet" href="//cdn-images.mailchimp.com/embedcode/classic-10_7_dtp.css" type="text/css">
     <link rel="stylesheet" href="css/mailchimp.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Custom -->
+    <link rel="stylesheet" href="css/main.css">
+
 
     <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
     <div class="header">
-        <img src="/icon.png">
+        <a href="index.html"><img src="icon.png" class="logo"></a>
+        <span class="title">Asociación Akorcheas</span>
     </div>
 
-    <div class="legal">
+    <div class="legal container">
+    <div class="row">
+    <div class="col">
 
         <h1>Política de cookies</h1>
         <p>
-            La página web www.akorcheas.org cuya titularidad es de la Asociación Akorcheas (en adelante, Akorcheas), utilizan cookies cuando un 
+            La página web www.akorcheas.org cuya titularidad es de la Asociación Akorcheas (en adelante, Akorcheas), utiliza cookies cuando un 
             usuario navega por las mismas. En caso de utilizar nuestras web sin proceder a la desactivación de las cookies, usted manifiesta su 
             consentimiento para la instalación de las mismas.
         </p>
@@ -121,7 +137,7 @@
         <p>
             Navegar por este portal web supone que se puedan instalar los siguientes tipos de Cookies:
         </p>
-        <table><tbody>
+        <table class="table"><thead>
             <tr>
                 <th>Nombre</th>
                 <th>Tipo</th>
@@ -130,6 +146,7 @@
                 <th>Finalidad</th>
                 <th>Más información</th>
             </tr>
+            </thead><tbody>
             <tr>
                 <td>_gid</td>
                 <td>3</td>
@@ -160,7 +177,7 @@
             Facebook, Twitter, Google+, Linkedin, entre otras. Al utilizar el registro social, autorizas a la red 
             social para que almacene una Cookie persistente. Esta Cookie recuerda tu identificación en el servicio, 
             haciendo mucho más rápido el acceso en siguientes visitas. Esta Cookie puede ser eliminada, y además, 
-            puedes anular los permisos de acceso de los servicios de la web de Víctor Orive (Voarte) desde la configuración 
+            puedes anular los permisos de acceso de los servicios de la web de Akorcheas desde la configuración 
             de privacidad de la red social concreta.
         </p>
 
@@ -210,13 +227,30 @@
             Akorcheas podrá modificar esta Política de Cookies en función de exigencias legislativas, por ello se aconseja a los usuarios 
             que visiten a de manera periódica la presente política.
         </p>
+        <p class="text-center">
+            <a href="index.html">Volver</a>
+        </p>
+    </div>
+    </div>
     </div>
 
-    <div class="footer">
-
+    <div class="footer container-fluid">
+        <div class="row p-3">
+            <div class="col-6">
+                <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.es" target="_blank">
+                    <img src="img/cc-by-nc-sa.png"></a> (CC) 2022 - Akorcheas
+            </div>
+            <div class="col-6">
+                <a href="privacy.html">Política de privacidad</a><br>
+                <a href="cookies.html">Política de cookies</a>
+            </div>
+        </div>
+        <div class="row p-2">
     </div>
 
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
 
