@@ -34,15 +34,15 @@ new cookieNoticeJS({
     'buttonBgColor': '#d35400',  
     
     // Dismiss button text color
-    'buttonTextColor': '#fff', 
+    'buttonTextColor': '#fff',
       
     // Notice background color
-    'noticeBgColor': '#000', 
+    'noticeBgColor': '#a0a0a0',
        
     // Notice text color
-    'noticeTextColor': '#fff', 
+    'noticeTextColor': '#000',
     
     // the lernMoreLink color (default='#009fdd') 
-    'linkColor':'#f00'
+    'linkColor':'#fff'
        
  });

@@ -80,7 +80,7 @@
  
          // If cookies are not supported or notice cookie is already set
          if (!testCookie() || getNoticeCookie()) {
-             return;
+            return;
          }
  
          // Extend default params
@@ -186,9 +186,9 @@
          noticeStyle.background = bgColor;
          noticeStyle.color = textColor;
          noticeStyle["z-index"] = '999';
-         noticeStyle.padding = '10px 5px';
+         noticeStyle.padding = '26px 5px';
          noticeStyle["text-align"] = 'center';
-         noticeStyle["font-size"] = "12px";
+         noticeStyle["font-size"] = "1em";
          noticeStyle["line-height"] = "28px";
          noticeStyle.fontFamily = 'Helvetica neue, Helvetica, sans-serif';
  
