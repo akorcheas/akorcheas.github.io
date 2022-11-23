@@ -11,11 +11,18 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
+html{
   color: #222;
   font-size: 1em;
   line-height: 1.4;
-
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+}
+html body {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: darkgray;
+  min-height: 100%;
 }
 
 /*
@@ -89,31 +96,54 @@ textarea {
    ========================================================================== */
 
 .header {
-  background-color: #e20613;
+  background-color: #e20613!important;
   color: white;
+}
+.header .navbar-nav .nav-link {
+  /* font-family: 'IM Fell Double Pica', serif !important; */
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 1em !important;
+  color: white !important;
+}
+.header.navbar .brand {
+  color: white !important;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+  color: grey !important;
+  font-weight: bolder;
 }
 
 .header .logo {
-  height: 50px;
+  height: 70px;
   padding: 8px;
 }
 .header .title {
-  font-family: 'IM Fell Double Pica', serif;
+  /* font-family: 'IM Fell Double Pica', serif; */
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.4em;
 }
 
 .newsletter {
-  background-color: #e20613;
+  background-color: #fff;
+  min-height: calc(100vh - 40px - 96px);
+}
+.newsletter .btn.btn-danger{
+  background-color: #e20613!important;
 }
 
 .banner {
   font-family: 'Antonio', sans-serif;
-  background-color: #fff;
+  background-color: yellowgreen;
+  min-height: calc(100vh - 40px - 96px);
 }
 
 .footer {
   background-color: #000;
   color: #808080;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 1200px;
 }
 
 .newsletter a,
