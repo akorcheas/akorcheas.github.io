@@ -23,6 +23,7 @@ html body {
   max-width: 1200px;
   margin: 0 auto;
   min-height: 100%;
+  padding-top: 86px;
 }
 
 /*
@@ -104,6 +105,13 @@ textarea {
   font-family: 'Montserrat', sans-serif !important;
   font-size: 1em !important;
   color: white !important;
+}
+.header.navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 1200px;
+  z-index: 100;
 }
 .header.navbar .brand {
   color: white !important;
