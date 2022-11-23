@@ -17,11 +17,11 @@ html{
   line-height: 1.4;
   font-family: 'Montserrat', sans-serif;
   height: 100%;
+  background-color: darkgray;
 }
 html body {
   max-width: 1200px;
   margin: 0 auto;
-  background-color: darkgray;
   min-height: 100%;
 }
 
@@ -136,7 +136,30 @@ textarea {
   background-color: yellowgreen;
   min-height: calc(100vh - 40px - 96px);
 }
-
+.post.events-held h3{
+  text-align: left;
+  border-bottom: 2px solid #222;
+  padding-bottom: 5px;
+}
+.post.events-held img{
+  max-width: 300px;
+}
+.pg-title{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color:white;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.family-antonio{
+  font-family: 'Antonio', sans-serif;
+}
+.bg-color-yellowgreen{
+  background-color: yellowgreen;
+}
+.empty-container{
+  height: 96px;
+}
 .footer {
   background-color: #000;
   color: #808080;
