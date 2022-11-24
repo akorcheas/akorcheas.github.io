@@ -93,8 +93,8 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+  Author's custom styles
+========================================================================== */
 
 .header {
   background-color: #e20613!important;
@@ -180,6 +180,8 @@ textarea {
 .newsletter a,
 .footer a {
   text-decoration: none;
+}
+.footer a {
   color: white;
 }
 
@@ -190,8 +192,8 @@ textarea {
 }
 
 /* ==========================================================================
-   Helper classes
-   ========================================================================== */
+  Helper classes
+========================================================================== */
 
 /*
  * Hide visually and from screen readers
@@ -272,10 +274,10 @@ textarea {
 }
 
 /* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
+  EXAMPLE Media Queries for Responsive Design.
+  These examples override the primary ('mobile first') styles.
+  Modify as content requires.
+========================================================================== */
 
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
@@ -289,10 +291,10 @@ textarea {
 }
 
 /* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   https://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
+  Print styles.
+  Inlined to avoid the additional HTTP request:
+  https://www.phpied.com/delay-loading-your-print-css/
+========================================================================== */
 
 @media print {
   *,
