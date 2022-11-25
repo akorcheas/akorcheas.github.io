@@ -176,7 +176,10 @@ textarea {
   width: 100%;
   max-width: 1200px;
 }
-
+.image-footer{
+  font-size: 12px;
+  text-align: center;
+}
 .newsletter a,
 .footer a {
   text-decoration: none;
