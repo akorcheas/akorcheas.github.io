@@ -41,58 +41,61 @@
 </head>
 
 <body>
-  <nav class="header navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <div class="header d-flex align-items-center col-xs-2 col-md-4 brand">
-        <img src="icon.png" class="logo">
-        <span class="title">Asociación Akorcheas</span>
+  <div class="container body-content bg-color-yellowgreen px-0">
+    <nav class="header container navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <div class="header d-flex align-items-center col-xs-2 col-md-4 brand">
+          <img src="icon.png" class="logo">
+          <span class="title">Asociación Akorcheas</span>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="proximos_eventos.html">Próximos eventos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="eventos_realizados.html">Eventos Realizados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="quienes_somos.html">Quienes somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="proximos_eventos.html">Próximos eventos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="eventos_realizados.html">Eventos Realizados</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="quienes_somos.html">Quienes somos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contacto.html">Contacto</a>
-          </li>
-        </ul>
+    </nav>
+
+    <div class="banner container-fluid d-flex flex-column py-4 px-0">
+      <h1 class="text-center pb-3">Vamos a inundarlo todo de BUENA MÚSICA</h1>
+      <img src="img/bg-home.png" class="mx-auto img-fluid col-8">
+      <h2 class="text-center pt-3">¡La sierra oeste de Madrid se mueve!</h2>
+    </div>
+
+    <div class="empty-container bg-color-yellowgreen mt-5"></div>
+    <div class="container footer">
+      <div class="row p-3">
+        <div class="col-6">
+          <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.es" target="_blank">
+            <img src="img/cc-by-nc-sa.png"></a> (CC) 2022 - Akorcheas
+        </div>
+        <div class="col-6">
+          <a href="privacy.html">Política de privacidad</a><br>
+          <a href="cookies.html">Política de cookies</a>
+        </div>
+      </div>
+      <div class="row p-2">
       </div>
     </div>
-  </nav>
-
-
-  <div class="banner container-fluid d-flex flex-column py-4">
-    <h1 class="text-center pb-3">Vamos a inundarlo todo de BUENA MÚSICA</h1>
-    <img src="img/bg-home.png" class="mx-auto img-fluid col-8">
-    <h2 class="text-center pt-3">¡La sierra oeste de Madrid se mueve!</h2>
   </div>
-
-  <div class="footer container-fluid">
-    <div class="row p-3">
-      <div class="col-6">
-        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.es" target="_blank">
-          <img src="img/cc-by-nc-sa.png"></a> (CC) 2022 - Akorcheas
-      </div>
-      <div class="col-6">
-        <a href="privacy.html">Política de privacidad</a><br>
-        <a href="cookies.html">Política de cookies</a>
-      </div>
-    </div>
-    <div class="row p-2">
-    </div>
 
 
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
@@ -116,5 +119,6 @@
     <script src="js/cookie.notice.min.js"></script>
     <script src="js/cookie.notice.config.js"></script>
 </body>
+
 
 </html>

@@ -11,20 +11,16 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html{
+html, body{
   color: #222;
   font-size: 1em;
+  min-height: 100%;
+  height: auto!important;
   line-height: 1.4;
   font-family: 'Montserrat', sans-serif;
-  height: 100%;
   background-color: darkgray;
 }
-html body {
-  max-width: 1200px;
-  margin: 0 auto;
-  min-height: 100%;
-  padding-top: 86px;
-}
+
 
 /*
  * Remove text-shadow in selection highlight:
@@ -95,7 +91,11 @@ textarea {
 /* ==========================================================================
   Author's custom styles
 ========================================================================== */
-
+.body-content{
+  padding-top: 86px;
+  min-height: 100%;
+  height: auto!important;
+}
 .header {
   background-color: #e20613!important;
   color: white;
@@ -109,9 +109,10 @@ textarea {
 .header.navbar{
   position: fixed;
   top: 0;
-  width: 100%;
-  max-width: 1200px;
   z-index: 100;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.49);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.49);
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.49);
 }
 .header.navbar .brand {
   color: white !important;
@@ -159,12 +160,7 @@ textarea {
   padding: 10px;
   margin-bottom: 20px;
 }
-.family-antonio{
-  font-family: 'Antonio', sans-serif;
-}
-.bg-color-yellowgreen{
-  background-color: yellowgreen;
-}
+
 .empty-container{
   height: 96px;
 }
@@ -173,8 +169,6 @@ textarea {
   color: #808080;
   position: fixed;
   bottom: 0;
-  width: 100%;
-  max-width: 1200px;
 }
 .image-footer{
   font-size: 12px;
@@ -193,7 +187,33 @@ textarea {
   background-color: white;
   border-color: white;
 }
-
+/* ==========================================================================
+  Colors & fonts classes
+========================================================================== */
+.family-antonio{
+  font-family: 'Antonio', sans-serif;
+}
+.family-montserrat{
+  font-family: 'Montserrat', sans-serif;
+}
+.bg-color-yellowgreen{
+  background-color: yellowgreen;
+}
+.bg-color-white{
+  background-color: white;
+}
+.bg-color-red{
+  background-color: #e20613!important;
+}
+.color-yellowgreen{
+  color: yellowgreen;
+}
+.color-white{
+  color: white;
+}
+.color-red{
+  color: #e20613!important;
+}
 /* ==========================================================================
   Helper classes
 ========================================================================== */
