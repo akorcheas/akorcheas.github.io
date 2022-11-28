@@ -139,7 +139,9 @@ textarea {
 .newsletter .btn.btn-danger{
   background-color: #e20613!important;
 }
-
+.newsletter .agree-content{
+  font-size: 12px;
+}
 .banner {
   font-family: 'Antonio', sans-serif;
   background-color: yellowgreen;
