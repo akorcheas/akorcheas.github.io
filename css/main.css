@@ -93,7 +93,7 @@ textarea {
 ========================================================================== */
 .body-content{
   padding-top: 86px;
-  min-height: 100%;
+  min-height: 100vh;
   height: auto!important;
 }
 .header {
@@ -114,19 +114,24 @@ textarea {
   -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.49);
   box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.49);
 }
-.header.navbar .brand {
+.header .header-logo-container {
+  height: 70px;
+  width: 350px;
   color: white !important;
 }
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
-  color: grey !important;
+  color: #333 !important;
   font-weight: bolder;
 }
-
-.header .logo {
+.logo-container {
+  max-width: 350px;
+  margin-right: 20px;
+}
+.logo-container .logo {
   height: 70px;
   padding: 8px;
 }
-.header .title {
+.logo-container  .title {
   /* font-family: 'IM Fell Double Pica', serif; */
   font-family: 'Montserrat', sans-serif;
   font-size: 1.4em;
@@ -142,18 +147,23 @@ textarea {
 .newsletter .agree-content{
   font-size: 12px;
 }
-.banner {
-  font-family: 'Antonio', sans-serif;
-  background-color: yellowgreen;
-  min-height: calc(100vh - 40px - 96px);
+
+.link-image, .link-image img{
+  max-width: 500px;
+}
+.events-held-link{
+  font-size: 16px;
 }
 .post.events-held h3{
   text-align: left;
   border-bottom: 2px solid #222;
   padding-bottom: 5px;
 }
-.post.events-held img{
-  max-width: 300px;
+.post-paragraph{
+  padding-left: 14px;
+}
+.post-list{
+  margin-left: 14px;
 }
 .pg-title{
   text-align: center;
@@ -164,7 +174,7 @@ textarea {
 }
 
 .empty-container{
-  height: 96px;
+  height: 98px;
 }
 .footer {
   background-color: #000;
@@ -216,6 +226,7 @@ textarea {
 .color-red{
   color: #e20613!important;
 }
+
 /* ==========================================================================
   Helper classes
 ========================================================================== */
@@ -306,6 +317,11 @@ textarea {
 
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
+}
+@media only screen and (max-width: 35em) {
+  .logo-container  .title {
+    font-size: 16px;
+  }
 }
 
 @media print,
