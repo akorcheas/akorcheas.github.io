@@ -18,10 +18,10 @@ html, body{
   height: auto!important;
   line-height: 1.4;
   font-family: 'Montserrat', sans-serif;
-  background-color: darkgray;
-  background-image: url("../img/fondo.jpg");
+  background-color: lightgray;
+  /* background-image: url("../img/fondo.jpg");
   background-repeat: repeat-x;
-  background-attachment: fixed;
+  background-attachment: fixed; */
 }
 
 
@@ -91,6 +91,9 @@ textarea {
   resize: vertical;
 }
 
+a{
+  color: #e20613!important
+}
 /* ==========================================================================
   Author's custom styles
 ========================================================================== */
@@ -98,6 +101,8 @@ textarea {
   padding-top: 86px;
   min-height: 100vh;
   height: auto!important;
+  background-color:#333;
+  color: white
 }
 .header {
   background-color: #e20613!important;
@@ -140,12 +145,11 @@ textarea {
   font-size: 1.4em;
 }
 
-.newsletter {
-  background-color: #fff;
-  min-height: calc(100vh - 40px - 96px);
-}
 .newsletter .btn.btn-danger{
   background-color: #e20613!important;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .newsletter .agree-content{
   font-size: 12px;
@@ -159,19 +163,28 @@ textarea {
 }
 .post.events-held h3{
   text-align: left;
-  border-bottom: 2px solid #222;
+  border-bottom: 2px solid #999;
   padding-bottom: 5px;
 }
 .post-paragraph{
   padding-left: 14px;
 }
-.post-list{
+.post-list, .media-list{
   margin-left: 14px;
+}
+.media-list li{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+.post-media-logo img{
+  max-width: 200px;
 }
 .pg-title{
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  background-color:white;
+  background-color:#999;
+  color: #333;
   padding: 10px;
   margin-bottom: 20px;
 }
@@ -193,6 +206,9 @@ textarea {
 .footer a {
   text-decoration: none;
 }
+.newsletter .form-floating>label {
+  color: #666;
+}
 .footer a {
   color: white;
 }
@@ -205,8 +221,9 @@ textarea {
 /* ==========================================================================
   Colors & fonts classes
 ========================================================================== */
-.family-antonio{
-  font-family: 'Antonio', sans-serif;
+
+.family-oswald{
+  font-family: 'Oswald', sans-serif;
 }
 .family-montserrat{
   font-family: 'Montserrat', sans-serif;
