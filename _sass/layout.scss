@@ -1,0 +1,31 @@
+@import '../_sass/header.scss';
+@import '../_sass/footer.scss';
+/* ==========================================================================
+  GRL
+========================================================================== */
+.body-content{
+  padding-top: 86px;
+  min-height: 100vh;
+  height: auto!important;
+  background-color:#333;
+  color: white
+}
+.pg-title {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #999;
+  color: #333;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* ==========================================================================
+  IMAGES AND IMAGES LINKS
+========================================================================== */
+.link-image-container{
+  position: relative;
+  img{
+    max-width: 500px;
+  }
+}
+

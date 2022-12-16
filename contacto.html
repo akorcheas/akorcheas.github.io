@@ -25,7 +25,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&display=swap">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap" rel="stylesheet">
-
+  <!-- FontAwesome -->
+  <script src="https://example.com/fontawesome/v6.2.1/js/all.js" data-auto-replace-svg="nest"></script>
   <!-- Mailchimp -->
   <link rel="stylesheet" href="css/mailchimp.css">
 
@@ -33,7 +34,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <!-- Custom -->
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
 
 
   <meta name="theme-color" content="#fafafa">
@@ -41,11 +42,11 @@
 
 <body>
   <div class="container body-content px-0">
-    <nav class="header container navbar navbar-expand-xl navbar-dark bg-dark">
+    <nav class="container navbar navbar-expand-xl navbar-dark bg-dark">
       <div class="container-fluid">
-        <div class="header d-flex align-items-center">
-          <div class="logo-container mr-4">
-            <img src="icon.png" class="logo">
+        <div class="logo-container d-flex align-items-center">
+          <div class="logo-image-container mr-4">
+            <img class="logo" src="icon.png">
             <span class="title">Asociación Akorcheas</span>
           </div>
         </div>
@@ -84,7 +85,7 @@
       <!-- Begin Mailchimp Signup Form -->
       <div class="d-flex justify-content-center col-12">
         <div class="d-felx flex-column col-10">
-        <!-- <div class="d-felx flex-column col-6 col-xs-10"> -->
+          <!-- <div class="d-felx flex-column col-6 col-xs-10"> -->
           <h2 class="p-2 family-oswald text-center">¡Entérate de todo!</h2>
           <form
             action="https://akorcheas.us11.list-manage.com/subscribe/post?u=850c08191088b3e735357f64f&amp;id=d1f1e7d01e"
@@ -119,14 +120,15 @@
                     Podrás darte de baja en cualquier momento haciendo clic en el enlace que siempre está al final de
                     todos
                     los emails que te enviamos.
-                    Para más información revisa nuestra <a href="privacy.html" target="_blank">política de privacidad</a>
+                    Para más información revisa nuestra <a href="privacy.html" target="_blank">política de
+                      privacidad</a>
                   </span>
                 </label>
                 <div class="invalid-feedback">
                   Debes dar tu consentimiento para poder darte de alta.
                 </div>
               </div>
-  
+
               <p class="pt-2">
                 Usamos <a href="http://eepurl.com/h3Hh0b" title="Mailchimp - email marketing made easy and fun"
                   target="_blank">Mailchimp</a>
@@ -135,14 +137,14 @@
                 a Mailchimp. Puedes revisar la política de privacidad de Mailchimp <a
                   href="https://mailchimp.com/legal/terms" target="_blank">aqui.</a>
               </p>
-  
+
             </div>
-  
+
             <div class="col-12 text-end pb-3 mt-0">
               <div hidden="true"><input type="hidden" name="tags" value="9143440"></div>
               <input type="submit" value="Apúntame" name="subscribe" id="mc-embedded-subscribe" class="btn btn-danger">
             </div>
-  
+
           </form>
           <!-- enctype="text/plain"  -->
           <!-- <form action="mailto:cobe.mail@gmail.com" method="post" class="form-group" method="POST" enctype="text/plain" name="EmailForm">
