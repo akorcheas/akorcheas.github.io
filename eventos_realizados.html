@@ -25,7 +25,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&display=swap">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap" rel="stylesheet">
-
+  <!-- FontAwesome -->
+  <script src="https://example.com/fontawesome/v6.2.1/js/all.js" data-auto-replace-svg="nest"></script>
   <!-- Mailchimp -->
   <link rel="stylesheet" href="css/mailchimp.css">
 
@@ -33,18 +34,19 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <!-- Custom -->
-  <link rel="stylesheet" href="css/main.css">
-
-
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <!-- <link rel="stylesheet" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="js/vendor/jquery-3.6.2.min.js"></script>
   <meta name="theme-color" content="#fafafa">
 </head>
 <body>
   <div class="container body-content px-0">
-    <nav class="header container navbar navbar-expand-xl navbar-dark bg-dark">
+    <nav class="container navbar navbar-expand-xl navbar-dark bg-dark">
       <div class="container-fluid">
-        <div class="header d-flex align-items-center">
-          <div class="logo-container mr-4">
-            <img src="icon.png" class="logo">
+        <div class="logo-container d-flex align-items-center">
+          <div class="logo-image-container mr-4">
+            <img class="logo" src="icon.png">
             <span class="title">Asociación Akorcheas</span>
           </div>
         </div>
@@ -77,30 +79,30 @@
       </div>
     </nav>
     <h3 class="pg-title">Eventos realizados</h3>
+    <p class="text-center">Por orden de más reciente a más antiguo</p>
     <div class="image-footer mb-2">Haz click en la imagenes para agrandarlas</div>
 
     <div class="pb-4">
-      <div class="post events-held family-oswald container-fluid d-flex flex-column">
-        <h3 class="my-4">Concierto 25 Junio 2022</h3>
+      <div class="post title-border family-oswald container-fluid d-flex flex-column">
+        <h3 class="my-4" onclick="clickEvent()">Jam 10 Diciembre 2022</h3>
         <div class="d-flex flex-column align-items-center link-image-container">
-          <a class="d-flex link-image" target="_blank" href="img/eventos_realizados/concierto_2022-06-25.jpg">
-            <img src="img/eventos_realizados/concierto_2022-06-25.jpg" class="mx-auto img-fluid col-8 pb-4">
-          </a>
+          <span id="icon1"
+                class="op-0 position-absolute"
+                onmouseover="enableAnimation('#icon1', 'fadeInUp')">
+            <a  target="_self" href="jam_2022_12_10.html">
+              <i class="fa fa-search color-white" aria-hidden="true"></i>
+            </a>
+          </span>
+          <img id="image1"
+              src="img/eventos_realizados/jam_2022_12_10.jpg"
+              class="mx-auto img-fluid col-8 pb-4"
+              onmouseover="enableAnimation('#icon1', 'fadeInUp')"
+              onmouseleave="disableAnimation('#icon1', 'fadeInUp')">
         </div>
       </div>
     </div>
     <div class="pb-4">
-      <div class="post events-held family-oswald container-fluid d-flex flex-column">
-        <h3 class="my-4">Concierto 3 Julio 2022</h3>
-        <div class="d-flex flex-column align-items-center link-image-container">
-          <a class="d-flex link-image" target="_blank" href="img/eventos_realizados/concierto_2022-07-03.jpg">
-            <img src="img/eventos_realizados/concierto_2022-07-03.jpg" class="mx-auto img-fluid col-8 pb-4">
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="pb-4">
-      <div class="post events-held family-oswald container-fluid d-flex flex-column">
+      <div class="post title-border family-oswald container-fluid d-flex flex-column">
         <h3 class="my-4">Sesión dj 24 Setiembre 2022</h3>
         <div class="d-flex flex-column align-items-center link-image-container">
           <a class="d-flex link-image" target="_blank" href="img/eventos_realizados/dj_2022-09-24.jpg">
@@ -110,11 +112,31 @@
       </div>
     </div>
     <div class="pb-4">
-      <div class="post events-held family-oswald container-fluid d-flex flex-column">
+      <div class="post title-border family-oswald container-fluid d-flex flex-column">
         <h3 class="my-4">Jam 10 Setiembre 2022</h3>
         <div class="d-flex flex-column align-items-center link-image-container">
           <a class="d-flex link-image" target="_blank" href="img/eventos_realizados/jam_2022-09-10.jpg">
             <img src="img/eventos_realizados/jam_2022-09-10.jpg" class="mx-auto img-fluid col-8 pb-4">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="pb-4">
+      <div class="post title-border family-oswald container-fluid d-flex flex-column">
+        <h3 class="my-4">Concierto 3 Julio 2022</h3>
+        <div class="d-flex flex-column align-items-center link-image-container">
+          <a class="d-flex link-image" target="_blank" href="img/eventos_realizados/concierto_2022-07-03.jpg">
+            <img src="img/eventos_realizados/concierto_2022-07-03.jpg" class="mx-auto img-fluid col-8 pb-4">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="pb-4">
+      <div class="post title-border family-oswald container-fluid d-flex flex-column">
+        <h3 class="my-4">Concierto 25 Junio 2022</h3>
+        <div class="d-flex flex-column align-items-center link-image-container">
+          <a class="d-flex link-image" target="_blank" href="img/eventos_realizados/concierto_2022-06-25.jpg">
+            <img src="img/eventos_realizados/concierto_2022-06-25.jpg" class="mx-auto img-fluid col-8 pb-4">
           </a>
         </div>
       </div>

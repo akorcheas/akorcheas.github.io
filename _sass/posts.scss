@@ -1,0 +1,67 @@
+/* ==========================================================================
+  POSTS
+========================================================================== */
+.post{
+  &.title-border h3 {
+    text-align: left;
+    border-bottom: 2px solid #999;
+    padding-bottom: 5px;
+  }
+  .post-paragraph {
+    padding-left: 14px;
+  }
+  .post-list,
+  .media-list {
+    margin-left: 14px;
+    li {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      list-style-type: none;
+    }
+  }
+  .post-media-logo img {
+    max-width: 200px;
+  }
+  video {
+    width: 90%;
+    height: auto;
+  }
+  .post-carousel{
+    .carousel-inner {
+      width: 100%;
+      max-height: 500px !important;
+    }
+    .carousel-inner>.carousel-item>img,
+    .carousel-inner>.carousel-item>a>img{
+      max-height: 500px !important;
+      margin: 0 auto;
+      max-width: 90vw;
+    }
+  }
+  .post-text{
+    p{
+      font-size: 18px;
+    }
+  }
+}
+
+/* ==========================================================================
+  EXAMPLE Media Queries for Responsive Design.
+  These examples override the primary ('mobile first') styles.
+  Modify as content requires.
+========================================================================== */
+
+/* Extra small & Medium & large*/
+@media only screen and (max-width: 991px ) {
+  .post{
+    .post-text{
+      p{
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+
+
+
