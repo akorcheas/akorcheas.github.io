@@ -81,30 +81,38 @@
     </nav>
     <h3 class="pg-title">Eventos realizados</h3>
     <p class="text-center">Por orden de más reciente a más antiguo</p>
-    <div class="image-footer mb-2">Haz click en la imagenes para agrandarlas</div>
+    <div class="image-footer mb-2 px-2">
+      <span>Haz click en el icono </span>
+      <i class="fa fa-search color-white" aria-hidden="true"></i>
+      <span> para visualizar en tamaño real </span>
+      <span>, o en el icono </span>
+      <i class="fa fa-external-link color-white" aria-hidden="true"></i>
+      <span> para ir al detalle del evento </span>
+    </div>
 
     <div class="pb-4">
       <div class="post title-border family-oswald container-fluid d-flex flex-column">
         <h3 class="my-4" onclick="clickEvent()">Jam 10 Diciembre 2022</h3>
         <div class="d-flex flex-column align-items-center link-image-container">
-          <!-- <span id="icon1"
+          <span id="icon1"
                 class="op-0 position-absolute"
                 onmouseover="enableAnimation('#icon1', 'fadeInUp')">
             <a  target="_self" href="jam_2022_12_10.html">
-              <i class="fa fa-search color-white" aria-hidden="true"></i>
+              <!-- <i class="fa fa-search color-white" aria-hidden="true"></i> -->
+              <i class="fa fa-external-link color-white" aria-hidden="true"></i>
             </a>
-          </span> -->
-          <a  class="d-flex" target="_self" href="jam_2022_12_10.html">
+          </span>
+          <!-- <a  class="d-flex" target="_self" href="jam_2022_12_10.html">
             <img id="image1"
                 src="img/eventos_realizados/jam_2022_12_10.jpg"
                 class="mx-auto img-fluid col-8 pb-4">
-          </a>
+          </a> -->
 
-          <!-- <img id="image1"
+          <img id="image1"
               src="img/eventos_realizados/jam_2022_12_10.jpg"
               class="mx-auto img-fluid col-8 pb-4"
               onmouseover="enableAnimation('#icon1', 'fadeInUp')"
-              onmouseleave="disableAnimation('#icon1', 'fadeInUp')"> -->
+              onmouseleave="disableAnimation('#icon1', 'fadeInUp')">
 
         </div>
       </div>
