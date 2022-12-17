@@ -1,0 +1,13 @@
+
+- name: Inicio
+  link: /index.html
+- name: Próximos eventos
+  link: /proximos_eventos.html
+- name: Eventos Realizados
+  link: /eventos_realizados.html
+- name: Quienes somos
+  link: /quienes_somos.html
+- name: Medios
+  link: /medios.html
+- name: Contacto
+  link: /contacto.html
