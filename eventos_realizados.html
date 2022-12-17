@@ -14,12 +14,12 @@ legend: image-page
             <span id="{{ item.elementAnimation }}"
                   class="op-0 position-absolute"
                   onmouseover="enableAnimation('#{{ item.elementAnimation }}', '{{ item.animation }}')">
-              {% if item.pageLink != ''%}
+              {% if item.type == 'pageLink'%}
                 <a  target="_self" href="{{item.pageLink}}">
                   <i class="fa fa-external-link color-white" aria-hidden="true"></i>
                 </a>
                 {% endif %}
-              {% if item.pageLink == ''%}
+              {% if item.type == 'imageLink'%}
                 <a target="_blank" href="{{ item.image }}">
                   <i class="fa fa-search color-white" aria-hidden="true"></i>
                 </a>
