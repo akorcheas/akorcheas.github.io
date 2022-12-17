@@ -7,13 +7,14 @@ legend: image-page
     <p class="text-center">Por orden de más reciente a más antiguo</p>
     {% include image_legend.html %}
     {% for item in site.data.events_held %}
+    {{ item.elementAnimation }}
       <div class="pb-4">
         <div class="post title-border family-oswald container-fluid d-flex flex-column">
           <h3 class="my-4">{{ item.name }}</h3>
           <div class="d-flex flex-column align-items-center link-image-container">
             <span id="{{ item.elementAnimation }}"
                   class="op-0 position-absolute"
-                  onmouseover="enableAnimation('#'+{{ item.elementAnimation }}, {{ item.animation }})">
+                  onmouseover="enableAnimation('#{{ item.elementAnimation }}', '{{ item.animation }}')">
               {% if item.pageLink != ''%}
                 <a  target="_self" href="{{item.pageLink}}">
                   <i class="fa fa-external-link color-white" aria-hidden="true"></i>
@@ -27,8 +28,8 @@ legend: image-page
             </span>
             <img src="{{ item.image }}"
                 class="mx-auto img-fluid col-8 pb-4"
-                onmouseover="enableAnimation('#'+{{ item.elementAnimation }}, {{ item.animation }})"
-                onmouseover="disableAnimation('#'+{{ item.elementAnimation }}, {{ item.animation }})">
+                onmouseover="enableAnimation(('#{{ item.elementAnimation }}'), '{{ item.animation }}')"
+                onmouseleave="disableAnimation('#{{ item.elementAnimation }}', '{{ item.animation }}')">
           </div>
         </div>
       </div>
