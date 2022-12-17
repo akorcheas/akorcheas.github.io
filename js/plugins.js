@@ -20,5 +20,12 @@
     }
   }
 }());
-
+// (function ( $ ) {
+//   $.fn.enableAnimation(element, className) = function (){
+//     $(element).addClass(className);
+//   }
+//   $.fn.disableAnimation(element, className) = function (){
+//     $(element).addClass(className);
+//   }
+// }( jQuery ));
 // Place any jQuery/helper plugins in here.
