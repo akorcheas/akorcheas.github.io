@@ -1,13 +1,25 @@
 /* ==========================================================================
   NEWSLWTTER
 ========================================================================== */
-.newsletter .btn.btn-danger {
-	background-color: #e20613 !important;
-	margin-left: 10px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-.newsletter .agree-content {
-	font-size: 12px;
+.newsletter {
+  .btn.btn-danger {
+    background-color: #e20613 !important;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .agree-content {
+    font-size: 12px;
+  }
+  a{
+    text-decoration: none;
+  }
+  .form-floating>label {
+    color: #666;
+  }
+  .btn-primary {
+    color: black;
+    background-color: white;
+    border-color: white;
+  }
 }
