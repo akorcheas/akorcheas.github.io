@@ -1,0 +1,26 @@
+
+<nav class="container navbar navbar-expand-xl navbar-dark bg-dark">
+  <div class="container-fluid">
+    <div class="logo-container d-flex align-items-center">
+      <div class="logo-image-container mr-4">
+        <img class="logo" src="icon.png">
+        <span class="title">Asociación Akorcheas</span>
+      </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        {% for item in site.data.navigation %}
+          <li class="nav-item">
+            <a class="nav-link {% if page.title == item.name %}active{% endif %}"
+              {% if page.title == item.name %}aria-current="page"{% endif %}
+              href="{{ item.link }}">{{ item.name }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>

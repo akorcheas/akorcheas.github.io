@@ -1,234 +1,35 @@
-<!doctype html>
-<html lang="es">
-
-<head>
-  <meta charset="utf-8">
-  <title>Akorcheas</title>
-  <meta name="description"
-    content="Asociación Akorcheas. Vamos a inundarlo todo de buena música. ¡La Sierra Oeste de Madrid se mueve!">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
-  <!-- Normalize -->
-  <link rel="stylesheet" href="css/normalize.css">
-
-  <!-- Google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&display=swap">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap" rel="stylesheet">
-  <!-- FontAwesome -->
-  <link rel="stylesheet" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-  <!-- <script src="https://example.com/fontawesome/v6.2.1/js/all.js" data-auto-replace-svg="nest"></script> -->
-  <!-- Mailchimp -->
-  <link rel="stylesheet" href="css/mailchimp.css">
-
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <!-- Custom -->
-  <link rel="stylesheet" href="assets/css/styles.css">
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-  <script src="js/vendor/jquery-3.6.2.min.js"></script>
-  <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js'></script> -->
-  <meta name="theme-color" content="#fafafa">
-</head>
-<body>
-  <div class="container body-content px-0">
-    <nav class="container navbar navbar-expand-xl navbar-dark bg-dark">
-      <div class="container-fluid">
-        <div class="logo-container d-flex align-items-center">
-          <div class="logo-image-container mr-4">
-            <img class="logo" src="icon.png">
-            <span class="title">Asociación Akorcheas</span>
-          </div>
-        </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="proximos_eventos.html">Próximos eventos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Eventos Realizados</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="quienes_somos.html">Quienes somos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="medios.html">Medios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contacto.html">Contacto/Asociarse</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+---
+layout: default
+title: Eventos Realizados
+legend: image-page
+---
     <h3 class="pg-title">Eventos realizados</h3>
     <p class="text-center">Por orden de más reciente a más antiguo</p>
-    <div class="image-legend mb-2 px-2">
-      <span>Haz click en el icono </span>
-      <i class="fa fa-search color-white" aria-hidden="true"></i>
-      <span> para visualizar en tamaño real </span>
-      <span>, o en el icono </span>
-      <i class="fa fa-external-link color-white" aria-hidden="true"></i>
-      <span> para ir al detalle del evento </span>
-    </div>
-
-    <div class="pb-4">
-      <div class="post title-border family-oswald container-fluid d-flex flex-column">
-        <h3 class="my-4">Jam 10 Diciembre 2022</h3>
-        <div class="d-flex flex-column align-items-center link-image-container">
-          <span id="icon1"
-                class="op-0 position-absolute"
-                onmouseover="enableAnimation('#icon1', 'fadeInUp')">
-            <a  target="_self" href="jam_2022_12_10.html">
-              <!-- <i class="fa fa-search color-white" aria-hidden="true"></i> -->
-              <i class="fa fa-external-link color-white" aria-hidden="true"></i>
-            </a>
-          </span>
-          <img id="image1"
-              src="img/eventos_realizados/jam_2022_12_10.jpg"
-              class="mx-auto img-fluid col-8 pb-4"
-              onmouseover="enableAnimation('#icon1', 'fadeInUp')"
-              onmouseleave="disableAnimation('#icon1', 'fadeInUp')">
+    {% include image_legend.html %}
+    {% for item in site.data.events_held %}
+      <div class="pb-4">
+        <div class="post title-border family-oswald container-fluid d-flex flex-column">
+          <h3 class="my-4">{{ item.name }}</h3>
+          <div class="d-flex flex-column align-items-center link-image-container">
+            <span id="{{ item.elementAnimation }}"
+                  class="op-0 position-absolute"
+                  onmouseover="enableAnimation('#'+{{ item.elementAnimation }}, {{ item.animation }})">
+              {% if item.pageLink != ''%}
+                <a  target="_self" href="{{item.pageLink}}">
+                  <i class="fa fa-external-link color-white" aria-hidden="true"></i>
+                </a>
+                {% endif %}
+              {% if item.pageLink == ''%}
+                <a target="_blank" href="{{ item.image }}">
+                  <i class="fa fa-search color-white" aria-hidden="true"></i>
+                </a>
+              {% endif %}
+            </span>
+            <img src="{{ item.image }}"
+                class="mx-auto img-fluid col-8 pb-4"
+                onmouseover="enableAnimation('#'+{{ item.elementAnimation }}, {{ item.animation }})"
+                onmouseover="disableAnimation('#'+{{ item.elementAnimation }}, {{ item.animation }})">
+          </div>
         </div>
       </div>
-    </div>
-    <div class="pb-4">
-      <div class="post title-border family-oswald container-fluid d-flex flex-column">
-        <h3 class="my-4">Sesión dj 24 Setiembre 2022</h3>
-        <div class="d-flex flex-column align-items-center link-image-container">
-          <span id="icon2"
-                class="op-0 position-absolute"
-                onmouseover="enableAnimation('#icon2', 'fadeInUp')">
-            <a target="_blank" href="img/eventos_realizados/dj_2022-09-24.jpg">
-              <i class="fa fa-search color-white" aria-hidden="true"></i>
-            </a>
-          </span>
-          <img id="image2"
-              src="img/eventos_realizados/dj_2022-09-24.jpg"
-              class="mx-auto img-fluid col-8 pb-4"
-              onmouseover="enableAnimation('#icon2', 'fadeInUp')"
-              onmouseleave="disableAnimation('#icon2', 'fadeInUp')">
-        </div>
-      </div>
-    </div>
-    <div class="pb-4">
-      <div class="post title-border family-oswald container-fluid d-flex flex-column">
-        <h3 class="my-4">Jam 10 Setiembre 2022</h3>
-        <div class="d-flex flex-column align-items-center link-image-container">
-          <span id="icon3"
-                class="op-0 position-absolute"
-                onmouseover="enableAnimation('#icon3', 'fadeInUp')">
-            <a target="_blank" href="img/eventos_realizados/jam_2022-09-10.jpg">
-              <i class="fa fa-search color-white" aria-hidden="true"></i>
-            </a>
-          </span>
-          <img id="image3"
-              src="img/eventos_realizados/jam_2022-09-10.jpg"
-              class="mx-auto img-fluid col-8 pb-4"
-              onmouseover="enableAnimation('#icon3', 'fadeInUp')"
-              onmouseleave="disableAnimation('#icon3', 'fadeInUp')">
-        </div>
-      </div>
-    </div>
-    <div class="pb-4">
-      <div class="post title-border family-oswald container-fluid d-flex flex-column">
-        <h3 class="my-4">Concierto 3 Julio 2022</h3>
-        <div class="d-flex flex-column align-items-center link-image-container">
-          <span id="icon4"
-                class="op-0 position-absolute"
-                onmouseover="enableAnimation('#icon4', 'fadeInUp')">
-            <a target="_blank" href="img/eventos_realizados/concierto_2022-07-03.jpg">
-              <i class="fa fa-search color-white" aria-hidden="true"></i>
-            </a>
-          </span>
-          <img id="image4"
-              src="img/eventos_realizados/concierto_2022-07-03.jpg"
-              class="mx-auto img-fluid col-8 pb-4"
-              onmouseover="enableAnimation('#icon4', 'fadeInUp')"
-              onmouseleave="disableAnimation('#icon4', 'fadeInUp')">
-        </div>
-      </div>
-    </div>
-    <div class="pb-4">
-      <div class="post title-border family-oswald container-fluid d-flex flex-column">
-        <h3 class="my-4">Concierto 25 Junio 2022</h3>
-        <div class="d-flex flex-column align-items-center link-image-container">
-          <span id="icon5"
-                class="op-0 position-absolute"
-                onmouseover="enableAnimation('#icon5', 'fadeInUp')">
-            <a target="_blank" href="img/eventos_realizados/concierto_2022-06-25.jpg">
-              <i class="fa fa-search color-white" aria-hidden="true"></i>
-            </a>
-          </span>
-          <img id="image5"
-              src="img/eventos_realizados/concierto_2022-06-25.jpg"
-              class="mx-auto img-fluid col-8 pb-4"
-              onmouseover="enableAnimation('#icon5', 'fadeInUp')"
-              onmouseleave="disableAnimation('#icon5', 'fadeInUp')">
-        </div>
-      </div>
-    </div>
-
-    <div class="empty-container"></div>
-    <div class="container footer">
-      <div class="row p-3">
-        <div class="col-6">
-          <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.es" target="_blank">
-            <img src="img/cc-by-nc-sa.png">
-          </a>
-          <span class="cc-akorcheas">(CC) 2022 - Akorcheas</span>
-        </div>
-        <div class="col-6">
-          <a href="privacy.html">Política de privacidad</a><br>
-          <a href="cookies.html">Política de cookies</a>
-        </div>
-      </div>
-      <div class="row p-2">
-      </div>
-    </div>
-  </div>
-
-
-    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"></script>
-
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/animations.js"></script>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-04J06YVYJT"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
-      gtag('js', new Date());
-
-      gtag('config', 'G-04J06YVYJT');
-    </script>
-
-    <!-- Cookie notice -->
-    <script src="js/cookie.notice.min.js"></script>
-    <script src="js/cookie.notice.config.js"></script>
-</body>
-
-</html>
+    {% endfor %}
