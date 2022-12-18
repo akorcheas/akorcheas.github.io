@@ -6,8 +6,8 @@
   animation: fadeInUp
 - name: Sesión dj 24 Setiembre 2022
   image: assets/img/eventos_realizados/dj_2022-09-24.jpg
-  type: imageLink
-  pageLink:
+  type: pageLink
+  pageLink: /dj_2022-09-24.html
   elementAnimation: icon2
   animation: fadeInUp
 - name: Jam 10 Setiembre 2022
