@@ -1,29 +1,29 @@
 - name: Jam 10 Diciembre 2022
-  image: /img/eventos_realizados/jam_2022_12_10.jpg
+  image: assets/img/eventos_realizados/jam_2022_12_10.jpg
   type: pageLink
-  pageLink: /jam_2022_12_10.html
+  pageLink: pages/jam_2022_12_10.html
   elementAnimation: icon1
   animation: fadeInUp
 - name: Sesión dj 24 Setiembre 2022
-  image: img/eventos_realizados/dj_2022-09-24.jpg
-  type: imageLink
-  pageLink:
+  image: assets/img/eventos_realizados/dj_2022-09-24.jpg
+  type: pageLink
+  pageLink: pages/dj_2022-09-24.html
   elementAnimation: icon2
   animation: fadeInUp
 - name: Jam 10 Setiembre 2022
-  image: img/eventos_realizados/jam_2022-09-10.jpg
+  image: assets/img/eventos_realizados/jam_2022-09-10.jpg
   type: imageLink
   pageLink:
   elementAnimation: icon3
   animation: fadeInUp
 - name: Concierto 3 Julio 2022
-  image: img/eventos_realizados/concierto_2022-07-03.jpg
+  image: assets/img/eventos_realizados/concierto_2022-07-03.jpg
   type: imageLink
   pageLink:
   elementAnimation: icon4
   animation: fadeInUp
 - name: Concierto 25 Junio 2022
-  image: img/eventos_realizados/concierto_2022-06-25.jpg
+  image: assets/img/eventos_realizados/concierto_2022-06-25.jpg
   type: imageLink
   pageLink:
   elementAnimation: icon5

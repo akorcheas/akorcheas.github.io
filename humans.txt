@@ -3,14 +3,13 @@
 
 # TEAM
 
-    Carmen Cusrtido  -- Designer
+    Joan Comabella Belzunce -- Webmaster -- https://twitter.com/cobe1972
     Antonio Espinosa -- Webmaster -- https://twitter.com/antespi
 
 # THANKS
 
-    Augusto Gastro bar -- https://es-la.facebook.com/augustogastrobar/
 
 # TECHNOLOGY COLOPHON
 
-    CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    CSS3, HTML5, SCSS
+    Apache Server Configs, jQuery, Modernizr, Normalize.css, Jekyll

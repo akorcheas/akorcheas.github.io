@@ -1,0 +1,49 @@
+---
+layout: default
+title: dj_2022-09-24
+legend: image
+relativePath: ../
+---
+<h3 class="pg-title">Sesión dj 24 Setiembre 2022</h3>
+
+<div class="pb-5 mt-5">
+  <div class="post family-oswald container-fluid d-flex flex-row">
+    <div class="col-3 d-none d-md-block d-flex flex-column align-items-center link-image-container">
+      <a class="d-flex link-image" target="_blank" href="../assets/img/eventos_realizados/dj_2022-09-24.jpg">
+        <img src="../assets/img/eventos_realizados/dj_2022-09-24.jpg" class="mx-auto img-fluid col-8 pb-4">
+      </a>
+    </div>
+    <div class="post-text col-12 col-md-9 d-flex flex-column justify-content-md-center text-center text-md-start">
+      <p>Sesión de la DJ María Türné en las fiestas de Chapinería, en la plaza de la constitución.</p>
+    </div>
+  </div>
+</div>
+
+<h3 class="text-center">Carrusel imágenes</h3>
+<div class="post d-flex justify-content-center mb-5">
+  <div class="post-carousel col-xl-8 col-md-10">
+    <div id="carouselPost" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        {% for i in (0..5) %}
+          <button type="button" data-bs-target="#carouselPost" data-bs-slide-to="{{ i }}" aria-label="Slide {{ i | plus: 1 }}"
+          {% if i == 0 %}class="active" aria-current="true"{% endif %}></button>
+        {% endfor %}
+      </div>
+      <div class="carousel-inner">
+        {% for i in (1..6) %}
+          <div class="carousel-item {% if i == 1 %}active{% endif %}">
+            <img class="d-block" src="../assets/eventos_realizados/dj_2022-09-24/dj_2022-09-24_{{ i }}.jpg" alt="Slide {{ i }}">
+          </div>
+        {% endfor %}
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselPost" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselPost" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</div>
