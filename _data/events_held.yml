@@ -1,13 +1,13 @@
 - name: Jam 10 Diciembre 2022
   image: assets/img/eventos_realizados/jam_2022_12_10.jpg
   type: pageLink
-  pageLink: /jam_2022_12_10.html
+  pageLink: pages/jam_2022_12_10.html
   elementAnimation: icon1
   animation: fadeInUp
 - name: Sesión dj 24 Setiembre 2022
   image: assets/img/eventos_realizados/dj_2022-09-24.jpg
   type: pageLink
-  pageLink: /dj_2022-09-24.html
+  pageLink: pages/dj_2022-09-24.html
   elementAnimation: icon2
   animation: fadeInUp
 - name: Jam 10 Setiembre 2022
