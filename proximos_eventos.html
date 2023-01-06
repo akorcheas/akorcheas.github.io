@@ -7,31 +7,26 @@ relativePath:
 
 <h3 class="pg-title">Próximos eventos</h3>
 {% include image_legend.html %}
-<div class="text-center mb-4">
-  Calendario: <a href="#live1">14/01/2022</a>
-</div>
 <div class="pb-4">
   <div class="post container-fluid d-flex flex-column">
     <h4 class="text-center">Estate atento a los próximos eventos!!!</h4>
     <h5 class="text-center mb-4">No olvides q puedes contactarnos para recibir noticias de akorcheas o asociarte en la sección de
         <a href="contacto.html">contacto</a>
     </h5>
-  </div>
-  <div id="live1" class="pb-4">
-    <div class="post title-border family-oswald container-fluid d-flex flex-column">
-      <h3 class="my-4">Concierto en vivo 14/01/2023</h3>
-      <h5 class="text-center family-montserrat mt-4">Desde Akorcheas empezamos fuerte el año nuevo... </h5>
-      <h5 class="text-center family-montserrat mb-4">No te pierdas el mejor blues, Ritmh and blues y soul de la mano de Elena &
-        Brothers el próximo 14 de enero!!!</h5>
-      <div class="d-flex flex-column align-items-center link-image-container">
-        <span id="icon1" class="op-0 position-absolute" onmouseover="enableAnimation('#icon1', 'fadeInUp')">
-          <a target="_blank" href="assets/img/proximos_eventos/live_14-01-2023.jpg">
-            <i class="fa fa-search color-white" aria-hidden="true"></i>
-          </a>
-        </span>
-        <img id="image1" src="assets/img/proximos_eventos/live_14-01-2023.jpg" class="mx-auto img-fluid col-8 pb-4"
-          onmouseover="enableAnimation('#icon1', 'fadeInUp')" onmouseleave="disableAnimation('#icon1', 'fadeInUp')">
-      </div>
+    <h5 class="text-center family-montserrat">Desde Akorcheas empezamos fuerte el año nuevo... </h5>
+    <div class="text-center mb-4">
+      Calendario eventos: {% for calendarItem in site.data.calendar %}<a href="#{{calendarItem.id}}">{{calendarItem.date}}</a>{% endfor %}
     </div>
   </div>
+  {% for item in site.data.next_events %}
+    <div id="{{ item.calendarId }}" class="pb-4">
+      <div class="post title-border family-oswald container-fluid d-flex flex-column">
+        <h3 class="my-4">{{item.title}}</h3>
+        {% for itemMessage in item.messages %}
+          <h5 class="{{itemMessage.class}}">{{itemMessage.text}}</h5>
+        {% endfor %}
+        {% include image_link.html image = item.image %}
+      </div>
+    </div>
+  {% endfor %}
 </div>
