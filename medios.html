@@ -38,7 +38,7 @@ relativePath:
                 {{ item.title }}:
                 <div class="d-flex flex-column align-items-center link-image-container mt-5">
                   <a class="d-flex link-image" target="_blank" href="{{ item.link }}">
-                    <img src="{{ item.link }}" class="mx-auto img-fluid col-8 pb-4">
+                    <img src="{{ item.link }}" alt="item.alt" class="mx-auto img-fluid col-8 pb-4">
                   </a>
                 </div>
               </li>
@@ -55,7 +55,9 @@ relativePath:
       RADIO 21 - RITMO OESTE
     </h3>
     <div class="post-media-logo">
-      <img class="p-0" src="assets/img/medios/ritmo_oeste.png" class="mx-auto img-fluid col-8 pb-4">
+      <img class="mx-auto img-fluid col-8 pb-4"
+            src="assets/img/medios/ritmo_oeste.png"
+            alt="Imagen logo programa de radio ritmo oeste" class="">
     </div>
     <ul class="media-list family-montserrat">
       {% for item in site.data.media %}
