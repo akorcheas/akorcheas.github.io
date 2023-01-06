@@ -10,7 +10,7 @@ relativePath: ../
   <div class="post family-oswald container-fluid d-flex flex-row">
     <div class="col-3 d-none d-md-block d-flex flex-column align-items-center link-image-container">
       <a class="d-flex link-image" target="_blank" href="../assets/img/eventos_realizados/dj_2022-09-24.jpg">
-        <img src="../assets/img/eventos_realizados/dj_2022-09-24.jpg" class="mx-auto img-fluid col-8 pb-4">
+        <img src="../assets/img/eventos_realizados/dj_2022-09-24.jpg" alt="Imagen cartel sesión de dj 24 Setiembre 2022 realizada" class="mx-auto img-fluid col-8 pb-4">
       </a>
     </div>
     <div class="post-text col-12 col-md-9 d-flex flex-column justify-content-md-center text-center text-md-start">
@@ -32,7 +32,9 @@ relativePath: ../
       <div class="carousel-inner">
         {% for i in (1..6) %}
           <div class="carousel-item {% if i == 1 %}active{% endif %}">
-            <img class="d-block" src="../assets/eventos_realizados/dj_2022-09-24/dj_2022-09-24_{{ i }}.jpg" alt="Slide {{ i }}">
+            <img class="d-block"
+                  src="../assets/eventos_realizados/dj_2022-09-24/dj_2022-09-24_{{ i }}.jpg"
+                  alt="Imagen {{ i }} del carrusel de imágenes de la sesión dj 24 Setiembre 2022 realizada">
           </div>
         {% endfor %}
       </div>
