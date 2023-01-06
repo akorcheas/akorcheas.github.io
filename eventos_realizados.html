@@ -10,27 +10,8 @@ relativePath:
     {% for item in site.data.events_held %}
       <div class="pb-4">
         <div class="post title-border family-oswald container-fluid d-flex flex-column">
-          <h3 class="my-4">{{ item.name }}</h3>
-          <div class="d-flex flex-column align-items-center link-image-container">
-            <span id="{{ item.elementAnimation }}"
-                  class="op-0 position-absolute"
-                  onmouseover="enableAnimation('#{{ item.elementAnimation }}', '{{ item.animation }}')">
-              {% if item.type == 'pageLink'%}
-                <a  target="_self" href="{{item.pageLink}}">
-                  <i class="fa fa-external-link color-white" aria-hidden="true"></i>
-                </a>
-                {% endif %}
-              {% if item.type == 'imageLink'%}
-                <a target="_blank" href="{{ item.image }}">
-                  <i class="fa fa-search color-white" aria-hidden="true"></i>
-                </a>
-              {% endif %}
-            </span>
-            <img src="{{ item.image }}"
-                class="mx-auto img-fluid col-8 pb-4"
-                onmouseover="enableAnimation(('#{{ item.elementAnimation }}'), '{{ item.animation }}')"
-                onmouseleave="disableAnimation('#{{ item.elementAnimation }}', '{{ item.animation }}')">
-          </div>
+          <h3 class="my-4">{{ item.title }}</h3>
+          {% include image_link.html image = item %}
         </div>
       </div>
     {% endfor %}

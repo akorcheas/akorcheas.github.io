@@ -1,0 +1,12 @@
+- title: Concierto en vivo 14/01/2023
+  calendarId: live1
+  messages:
+    - text: No te pierdas el mejor blues, Ritmh and blues y soul de la mano de Elena & Brothers el próximo 14 de enero!!!
+      class: text-center family-montserrat mb-4
+  image:
+    imageUrl: assets/img/eventos_realizados/jam_2022_12_10.jpg
+    alt: Imagen concierto en vivo 14/01/2023
+    elementAnimation: icon1
+    typeLink: imageLink
+    pageLink:
+    animation: fadeInUp
