@@ -15,7 +15,12 @@ relativePath:
     </h5>
     <h5 class="text-center family-montserrat">Desde Akorcheas empezamos fuerte el año nuevo... </h5>
     <div class="text-center mb-4">
-      Calendario eventos: {% for calendarItem in site.data.calendar %}<a href="#{{calendarItem.id}}">{{calendarItem.date}} </a>{% endfor %}
+      Calendario eventos: {% for calendarItem in site.data.calendar %}
+                            {% if forloop.length > 0 %}
+                              <a href="#{{calendarItem.id}}">{{calendarItem.date}}</a>
+                              {% unless forloop.last %},{% endunless %}
+                            {% endif %}
+                          {% endfor %}
     </div>
   </div>
   {% for item in site.data.next_events %}
