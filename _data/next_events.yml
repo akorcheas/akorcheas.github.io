@@ -4,9 +4,25 @@
     - text: No te pierdas el mejor blues, Ritmh and blues y soul de la mano de Elena & Brothers el próximo 14 de enero!!!
       class: text-center family-montserrat mb-4
   image:
-    imageUrl: assets/img/eventos_realizados/jam_2022_12_10.jpg
+    imageUrl: assets/img/proximos_eventos/live_14-01-2023.jpg
     alt: Imagen concierto en vivo 14/01/2023
     elementAnimation: icon1
+    typeLink: imageLink
+    pageLink:
+    animation: fadeInUp
+- title: Concierto en vivo 12/02/2023
+  calendarId: live2
+  messages:
+    - text: Smiling Jack Smith es originario de la ciudad de Nueva York. Se mudó a España hace 28 años después de vivir 20 años en Vancouver, Canadá. Jack ha editado 7 CDs en España y ha tocado su música en clubs y festivales de 3 continentes.
+      class: text-center family-montserrat mb-4
+    - text: David Gwynn es un guitarrista polifacético de California que ha trabajado con algunos de los artistas más conocidos de España y tiene el Blues en lo más profundo de su corazón. Ha trabajado con Jack en sus últimos tres CD.
+      class: text-center family-montserrat mb-4
+    - text: David Herrington es un multiinstrumentista que toca la tuba y la trompeta en varios grupos de Jazz. Su tuba es una parte esencial de la banda, mucho más que un simple sustituto de un bajo.
+      class: text-center family-montserrat mb-4
+  image:
+    imageUrl: assets/img/proximos_eventos/live_12-02-2023.jpg
+    alt: Imagen concierto en vivo 12/02/2023
+    elementAnimation: icon2
     typeLink: imageLink
     pageLink:
     animation: fadeInUp
