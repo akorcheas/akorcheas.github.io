@@ -4,6 +4,12 @@
   elementAnimation: icon1
   iconColor: color-white
   alt: Imagen Jam 10 Diciembre 2022
+  detailComments:
+    - La jam session ha sido un exitazo… Gracias a ti!
+    - Esa noche lo pasamos realmente bien en la segunda Jam Session organizada por Akorcheas Asociación Musical en Espacio Sin Antena !!!
+    - Muchas gracias a todxs lxs que os animásteis a pasaros, ya fuese tocando o disfrutando del buen rollo y el musicón!!!
+    - Y, a quienes no pudísteis acercaros en esta ocasión, no os preocupéis, os avisaremos de la siguiente…
+  numberPictures: 10
 - title: Sesión dj 24 Setiembre 2022
   eventId: dj_2022-09-24
   typeLink: pageLink
@@ -15,22 +21,31 @@
   numberPictures: 6
 - title: Jam 10 Setiembre 2022
   eventId: jam_2022-09-10
-  typeLink: imageLink
-  pageLink:
+  typeLink: pageLink
   elementAnimation: icon3
   iconColor: color-white
   alt: Imagen Jam 10 Setiembre 2022
+  detailComments:
+    - La presentación de la Asociación Akorcheas en la Aldea del Fresno fue inmejorable.  Una espectacular Jam Session en Sin Antena Espacio Alternativo.
+    - En ella participaron numerosos artistas locales como Marisa Cortés, Iovis, Fokin Combo,  Diana Curtido y un sinfín de músicos y cantantes que crearon una velada absolutamente creativa y repleta de la mejor música en directo.
+  numberPictures: 10
 - title: Concierto 3 Julio 2022
   eventId: live_2022-07-03
   typeLink: imageLink
-  pageLink:
   elementAnimation: icon4
   iconColor: color-white
   alt: Imagen Concierto 3 Julio 2022
+  detailComments:
+    - La presentación de la Asociación Akorcheas en la Aldea del Fresno fue inmejorable.  Una espectacular Jam Session en Sin Antena Espacio Alternativo.
+    - En ella participaron numerosos artistas locales como Marisa Cortés, Iovis, Fokin Combo,  Diana Curtido y un sinfín de músicos y cantantes que crearon una velada absolutamente creativa y repleta de la mejor música en directo.
+  numberPictures: 10
 - title: Concierto 25 Junio 2022
   eventId: live_2022-06-25
   typeLink: imageLink
-  pageLink:
   elementAnimation: icon5
   iconColor: color-white
   alt: Imagen Concierto 25 Junio 2022
+  detailComments:
+    - El veinticinco de junio de 2022,  Akorcheas organizó su evento de presentación en colaboración con el Ayuntamiento de Chapinería, promoviendo un festival de día, con motivo de la apertura de la piscina municipal.
+    - Desde las 12 del mediodía, actuaron Plan de Fuga con sus mejores versiones de rock; el grupo local Fokin Combo y los cabezas de cartel, Hijos de King Kong, que nos hicieron popular a base del mejor ska.
+  numberPictures: 10
