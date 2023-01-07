@@ -15,22 +15,22 @@ relativePath:
     </h5>
     <h5 class="text-center family-montserrat">Desde Akorcheas empezamos fuerte el año nuevo... </h5>
     <div class="text-center mb-4">
-      Calendario eventos: {% for calendarItem in site.data.calendar %}
+      Calendario eventos: {% for event in site.data.next_events %}
                             {% if forloop.length > 0 %}
-                              <a href="#{{calendarItem.id}}">{{calendarItem.date}}</a>
+                              <a href="#{{calendarItem.id}}">{{event.date}}</a>
                               {% unless forloop.last %},{% endunless %}
                             {% endif %}
                           {% endfor %}
     </div>
   </div>
-  {% for item in site.data.next_events %}
-    <div id="{{ item.calendarId }}" class="pb-4">
+  {% for event in site.data.next_events %}
+    <div id="{{ event.eventId }}" class="pb-4">
       <div class="post title-border family-oswald container-fluid d-flex flex-column">
-        <h3 class="my-4">{{item.title}}</h3>
-        {% for itemMessage in item.messages %}
-          <h5 class="{{itemMessage.class}}">{{itemMessage.text}}</h5>
+        <h3 class="my-4">{{event.title}}</h3>
+        {% for eventMessage in event.messages %}
+          <h5 class="{{eventMessage.class}}">{{eventMessage.text}}</h5>
         {% endfor %}
-        {% include image_link.html image = item.image %}
+        {% include image_link.html image = event %}
       </div>
     </div>
   {% endfor %}

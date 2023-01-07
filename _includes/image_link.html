@@ -1,20 +1,32 @@
+{% if page.pageType == 'detail' %}
+<div class="col-3 d-none d-md-block d-flex flex-column align-items-center text-center link-image-container">
+{% else %}
 <div class="d-flex flex-column align-items-center link-image-container">
+{% endif %}
+{% case page.title %}
+  {% when "Próximos eventos" %}
+    {% assign imageFolder = site.data.constants.nextEvents %}
+  {% else %}
+    {% assign imageFolder = site.data.constants.eventsHeldUrl %}
+{% endcase %}
   <span id="{{ include.image.elementAnimation }}"
         class="op-0 position-absolute"
-        onmouseover="enableAnimation('#{{ include.image.elementAnimation }}', '{{ include.image.animation }}')">
-    {% if include.image.pageLink %}
-      <a  target="_self" href="{{include.image.pageLink}}">
-        <i class="fa fa-external-link color-white" aria-hidden="true"></i>
+        onmouseover="enableAnimation('#{{ include.image.elementAnimation }}', 'fadeInUp')">
+    {% capture imageUrl %}{{ page.relativePath }}{{ imageFolder }}{{ include.image.eventId }}.jpg{% endcapture %}
+    {% capture pageUrl %}pages/{{ include.image.eventId }}.html{% endcapture %}
+    {% if include.image.typeLink == 'pageLink' and page.pageType != 'detail'%}
+      <a class="{{ include.image.iconColor }}" target="_self" href="{{ pageUrl }}">
+        <i class="fa fa-external-link {{ include.image.iconColor }}" aria-hidden="true"></i>
       </a>
     {% else %}
-      <a target="_blank" href="{{ include.image.imageUrl }}">
-        <i class="fa fa-search color-white" aria-hidden="true"></i>
+      <a class="{{ include.image.iconColor }}" target="_blank" href="{{ imageUrl }}">
+        <i class="fa fa-search {{ include.image.iconColor }}" aria-hidden="true"></i>
       </a>
     {% endif %}
   </span>
-  <img class="mx-auto img-fluid col-8 pb-4"
+  <img class="mx-auto img-fluid col-8"
       alt="{{ include.image.alt }}"
-      src="{{ include.image.imageUrl }}"
-      onmouseover="enableAnimation('#{{ include.image.elementAnimation }}', '{{ include.image.animation }}')"
-      onmouseleave="disableAnimation('#{{ include.image.elementAnimation }}', '{{ include.image.animation }}')">
+      src="{{ imageUrl }}"
+      onmouseover="enableAnimation('#{{ include.image.elementAnimation }}', 'fadeInUp')"
+      onmouseleave="disableAnimation('#{{ include.image.elementAnimation }}', 'fadeInUp')">
 </div>

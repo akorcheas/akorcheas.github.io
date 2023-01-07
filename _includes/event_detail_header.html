@@ -1,0 +1,10 @@
+<div class="pb-5 mt-5">
+  <div class="post family-oswald container-fluid d-flex flex-row">
+    {% include image_link.html image = include.detail %}
+    <div class="post-text col-12 col-md-9 d-flex flex-column justify-content-md-center text-center text-md-start">
+      {% for eventComment in include.detail.detailComments %}
+        <p>{{ eventComment }}</p>
+      {% endfor %}
+    </div>
+  </div>
+</div>

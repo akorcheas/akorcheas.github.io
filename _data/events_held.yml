@@ -1,35 +1,36 @@
 - title: Jam 10 Diciembre 2022
-  imageUrl: assets/img/eventos_realizados/jam_2022_12_10.jpg
+  eventId: jam_2022_12_10
   typeLink: pageLink
-  pageLink: pages/jam_2022_12_10.html
   elementAnimation: icon1
-  animation: fadeInUp
+  iconColor: color-white
   alt: Imagen Jam 10 Diciembre 2022
 - title: Sesión dj 24 Setiembre 2022
-  imageUrl: assets/img/eventos_realizados/dj_2022-09-24.jpg
+  eventId: dj_2022-09-24
   typeLink: pageLink
-  pageLink: pages/dj_2022-09-24.html
   elementAnimation: icon2
-  animation: fadeInUp
+  iconColor: color-white
   alt: Imagen Sesión dj 24 Setiembre 2022
+  detailComments:
+    - Sesión de la DJ María Türné en las fiestas de Chapinería, en la plaza de la constitución.
+  numberPictures: 6
 - title: Jam 10 Setiembre 2022
-  imageUrl: assets/img/eventos_realizados/jam_2022-09-10.jpg
+  eventId: jam_2022-09-10
   typeLink: imageLink
   pageLink:
   elementAnimation: icon3
-  animation: fadeInUp
+  iconColor: color-white
   alt: Imagen Jam 10 Setiembre 2022
 - title: Concierto 3 Julio 2022
-  imageUrl: assets/img/eventos_realizados/concierto_2022-07-03.jpg
+  eventId: live_2022-07-03
   typeLink: imageLink
   pageLink:
   elementAnimation: icon4
-  animation: fadeInUp
+  iconColor: color-white
   alt: Imagen Concierto 3 Julio 2022
 - title: Concierto 25 Junio 2022
-  imageUrl: assets/img/eventos_realizados/concierto_2022-06-25.jpg
+  eventId: live_2022-06-25
   typeLink: imageLink
   pageLink:
   elementAnimation: icon5
-  animation: fadeInUp
+  iconColor: color-white
   alt: Imagen Concierto 25 Junio 2022
