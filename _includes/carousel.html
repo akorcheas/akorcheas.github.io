@@ -12,7 +12,7 @@
       <div class="carousel-inner">
         {% capture imageUrl %}{{ page.relativePath }}{{ site.data.constants.eventsHeldCarouselUrl }}{{include.detail.eventId}}/{{include.detail.eventId}}_{% endcapture %}
         {% for i in range %}
-          <div class="carousel-item {% if i == 0 %}active{% endif %}">
+          <div class="carousel-item {% if i == 0 %}active{% endif %} text-center">
             <a class="{{ include.detail.iconColor }}" target="_blank" href="{{ imageUrl }}{{i | plus:1 }}.jpg">
               <img  src="{{ imageUrl }}{{i | plus:1 }}.jpg"
                 alt="Imagen {{ i | plus:1 }} del carrusel de imágenes de la sesión dj 24 Setiembre 2022 realizada">
