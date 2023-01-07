@@ -1,0 +1,33 @@
+{% assign num = include.detail.numberPictures | minus: 1 %}
+{% assign range = (0..num) %}
+<div class="post d-flex justify-content-center mb-5">
+  <div class="post-carousel col-xl-8 col-md-10">
+    <div id="carouselPost" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        {% for i in range %}
+        <button type="button" data-bs-target="#carouselPost" data-bs-slide-to="{{ i }}"
+          aria-label="Slide {{ i | plus: 1 }}" {% if i==0 %}class="active" aria-current="true" {% endif %}></button>
+        {% endfor %}
+      </div>
+      <div class="carousel-inner">
+        {% capture imageUrl %}{{ page.relativePath }}{{ site.data.constants.eventsHeldCarouselUrl }}{{include.detail.eventId}}/{{include.detail.eventId}}_{% endcapture %}
+        {% for i in range %}
+          <div class="carousel-item {% if i == 0 %}active{% endif %}">
+            <a class="{{ include.detail.iconColor }}" target="_blank" href="{{ imageUrl }}{{i | plus:1 }}.jpg">
+              <img  src="{{ imageUrl }}{{i | plus:1 }}.jpg"
+                alt="Imagen {{ i | plus:1 }} del carrusel de imágenes de la sesión dj 24 Setiembre 2022 realizada">
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselPost" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselPost" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</div>

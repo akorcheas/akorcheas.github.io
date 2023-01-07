@@ -4,14 +4,14 @@ title: Eventos Realizados
 legend: image-page
 relativePath:
 ---
-    <h3 class="pg-title">Eventos realizados</h3>
-    <p class="text-center">Por orden de más reciente a más antiguo</p>
-    {% include image_legend.html %}
-    {% for item in site.data.events_held %}
-      <div class="pb-4">
-        <div class="post title-border family-oswald container-fluid d-flex flex-column">
-          <h3 class="my-4">{{ item.title }}</h3>
-          {% include image_link.html image = item %}
-        </div>
-      </div>
-    {% endfor %}
+<h3 class="pg-title">Eventos realizados</h3>
+<p class="text-center">Por orden de más reciente a más antiguo</p>
+{% include image_legend.html %}
+{% for item in site.data.events_held %}
+  <div class="pb-4">
+    <div class="post title-border family-oswald container-fluid d-flex flex-column">
+      <h3 class="my-4">{{ item.title }}</h3>
+      {% include image_link.html image = item %}
+    </div>
+  </div>
+{% endfor %}
