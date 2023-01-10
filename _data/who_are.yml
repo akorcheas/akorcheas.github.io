@@ -1,0 +1,64 @@
+- name: CARMEN CURTIDO
+  job: PRESIDENTA
+  image:
+    elementAnimation: icon1
+    iconColor: color-white
+    alt: Foto Carmen Curtido
+    eventId: carmen_curtido
+  email: carmen.akorcheas@gmail.com
+  messages:
+    - Carmen es la presidenta de Akorcheas, donde se ocupa de la coordinación, relaciones institucionales, comunicación corporativa y redes sociales.
+    - Es periodista y actualmente colabora en Master Fm, Atip Radio y Radio21. En esta última, en su sección Ritmo Oeste, entrevista y da a conocer a los artistas, cantantes, músicos, productores, profesionales de la Sierra Oeste de Madrid. Muchos de ellos, por supuesto, son socixs de Akorcheas!
+- name: ADOLFO MACHO
+  job: TESORERO
+  image:
+    elementAnimation: icon2
+    iconColor: color-white
+    alt: Foto Fito Macho
+    eventId: adolfo_macho
+  email: akorcheas@gmail.com
+  messages:
+    - "Adolfo, más conocido por todxs como Fito, no sólo es el tesorero de la Asociación: es su corazón, el motor primero de la creación de Akorcheas..."
+    - Cantante y músico en formaciones como los Epy & Blues y los Clean Shot, en Akorcheas se encarga de las relaciones publicas y programación.
+    - Como siempre dice, "Queremos inundar la Sierra Oeste de esas bonitas energias que nos da la música!!!"
+- name: ESTEBAN ESCOBAR
+  job: VICEPRESIDENTE
+  image:
+    elementAnimation: icon3
+    iconColor: color-white
+    alt: Foto Esteban Escobar
+    eventId: user
+  email: akorcheas@gmail.com
+  messages:
+    - Esteban es vicepresidente de esta asociación creada por y para los vecinos de la sierra oeste. Como amante de la música colabora en las labores de relaciones públicas, búsqueda de locales y maquetación de cartelería.
+    - Os anima a todxs a que os unáis a esta gran familia para, juntos,  conseguir grandes cosas!
+- name: MARGA SÁNCHEZ
+  job: SECRETARIA
+  image:
+    elementAnimation: icon4
+    iconColor: color-white
+    alt: Foto Marga Sanchez
+    eventId: marga_sanchez
+  email: akorcheas@gmail.com
+  messages:
+    - Margarita Sánchez, Secretaria de Akorcheas, trabaja en el mundo de las artes escénicas, en Teatros como el Teatro Real y el Gran Teatre del Liceu, desde hace más de 20 años. Es vecina de la Sierra Oeste desde hace 8, deseando que Sierra Oeste se llene de música!!!!
+- name: JIMMY SARRIÓ
+  job: PROGRAMADOR EVENTOS
+  image:
+    elementAnimation: icon5
+    iconColor: color-white
+    alt: Foto Jimmy Sarrió
+    eventId: jimmy
+  email: jimmyrede@gmail.com
+  messages:
+    - Jimmy es el guitarrista de ARDHI YA WAASI y SOMÁTICA. Su labor en Akorcheas es la de programador de conciertos. Si eres músico y quieres tocar con nosotros o proponer un concierto, ponte en contacto con Jimmy!
+- name: NONO TORRES
+  job: RESPONSABLE PRODUCCIÓN DE SONIDO
+  image:
+    elementAnimation: icon6
+    iconColor: color-white
+    alt: Foto Nono Torres
+    eventId: nono_torres
+  email: akorcheas@gmail.com
+  messages:
+    - Nono Torres es técnico de sonido profesional. En Akorcheas se encarga  del diseño de la producción y toma del sonido. Que todo suene a la perfección!

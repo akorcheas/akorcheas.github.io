@@ -17,7 +17,7 @@
   iconColor: color-white
   alt: Imagen Sesión dj 24 Setiembre 2022
   detailComments:
-    - Sesión de la DJ María Türné en las fiestas de Chapinería, en la plaza de la constitución.
+    - Akorcheas Asociación Musical también colaboró con el Ayuntamiento de Chapinería con motivo de sus fiestas patronales 2022, organizando una pinchada para toda la familia de la DJ internacional María Türme, que nos ofreció una velada de Balkan, ska y electro swing inolvidable.
   numberPictures: 6
 - title: Jam 10 Setiembre 2022
   eventId: jam_2022-09-10
@@ -41,11 +41,11 @@
   numberPictures: 10
 - title: Concierto 25 Junio 2022
   eventId: live_2022-06-25
-  typeLink: imageLink
+  typeLink: pageLink
   elementAnimation: icon5
   iconColor: color-white
   alt: Imagen Concierto 25 Junio 2022
   detailComments:
     - El veinticinco de junio de 2022,  Akorcheas organizó su evento de presentación en colaboración con el Ayuntamiento de Chapinería, promoviendo un festival de día, con motivo de la apertura de la piscina municipal.
     - Desde las 12 del mediodía, actuaron Plan de Fuga con sus mejores versiones de rock; el grupo local Fokin Combo y los cabezas de cartel, Hijos de King Kong, que nos hicieron popular a base del mejor ska.
-  numberPictures: 10
+  numberPictures: 12

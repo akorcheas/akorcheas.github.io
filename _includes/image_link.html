@@ -6,6 +6,8 @@
 {% case page.title %}
   {% when "Próximos eventos" %}
     {% assign imageFolder = site.data.constants.nextEvents %}
+  {% when "Quienes somos" %}
+    {% assign imageFolder = site.data.constants.whoAre %}
   {% else %}
     {% assign imageFolder = site.data.constants.eventsHeldUrl %}
 {% endcase %}
