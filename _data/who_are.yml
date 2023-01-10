@@ -1,64 +1,57 @@
-- name: CARMEN CURTIDO
-  job: PRESIDENTA
-  image:
-    elementAnimation: icon1
-    iconColor: color-white
-    alt: Foto Carmen Curtido
-    eventId: carmen_curtido
-  email: carmen.akorcheas@gmail.com
-  messages:
-    - Carmen es la presidenta de Akorcheas, donde se ocupa de la coordinación, relaciones institucionales, comunicación corporativa y redes sociales.
-    - Es periodista y actualmente colabora en Master Fm, Atip Radio y Radio21. En esta última, en su sección Ritmo Oeste, entrevista y da a conocer a los artistas, cantantes, músicos, productores, profesionales de la Sierra Oeste de Madrid. Muchos de ellos, por supuesto, son socixs de Akorcheas!
-- name: ADOLFO MACHO
-  job: TESORERO
-  image:
-    elementAnimation: icon2
-    iconColor: color-white
-    alt: Foto Fito Macho
-    eventId: adolfo_macho
-  email: akorcheas@gmail.com
-  messages:
-    - "Adolfo, más conocido por todxs como Fito, no sólo es el tesorero de la Asociación: es su corazón, el motor primero de la creación de Akorcheas..."
-    - Cantante y músico en formaciones como los Epy & Blues y los Clean Shot, en Akorcheas se encarga de las relaciones publicas y programación.
-    - Como siempre dice, "Queremos inundar la Sierra Oeste de esas bonitas energias que nos da la música!!!"
-- name: ESTEBAN ESCOBAR
-  job: VICEPRESIDENTE
-  image:
-    elementAnimation: icon3
-    iconColor: color-white
-    alt: Foto Esteban Escobar
-    eventId: user
-  email: akorcheas@gmail.com
-  messages:
-    - Esteban es vicepresidente de esta asociación creada por y para los vecinos de la sierra oeste. Como amante de la música colabora en las labores de relaciones públicas, búsqueda de locales y maquetación de cartelería.
-    - Os anima a todxs a que os unáis a esta gran familia para, juntos,  conseguir grandes cosas!
-- name: MARGA SÁNCHEZ
-  job: SECRETARIA
-  image:
-    elementAnimation: icon4
-    iconColor: color-white
-    alt: Foto Marga Sanchez
-    eventId: marga_sanchez
-  email: akorcheas@gmail.com
-  messages:
-    - Margarita Sánchez, Secretaria de Akorcheas, trabaja en el mundo de las artes escénicas, en Teatros como el Teatro Real y el Gran Teatre del Liceu, desde hace más de 20 años. Es vecina de la Sierra Oeste desde hace 8, deseando que Sierra Oeste se llene de música!!!!
-- name: JIMMY SARRIÓ
-  job: PROGRAMADOR EVENTOS
-  image:
-    elementAnimation: icon5
-    iconColor: color-white
-    alt: Foto Jimmy Sarrió
-    eventId: jimmy
-  email: jimmyrede@gmail.com
-  messages:
-    - Jimmy es el guitarrista de ARDHI YA WAASI y SOMÁTICA. Su labor en Akorcheas es la de programador de conciertos. Si eres músico y quieres tocar con nosotros o proponer un concierto, ponte en contacto con Jimmy!
-- name: NONO TORRES
-  job: RESPONSABLE PRODUCCIÓN DE SONIDO
-  image:
-    elementAnimation: icon6
-    iconColor: color-white
-    alt: Foto Nono Torres
-    eventId: nono_torres
-  email: akorcheas@gmail.com
-  messages:
-    - Nono Torres es técnico de sonido profesional. En Akorcheas se encarga  del diseño de la producción y toma del sonido. Que todo suene a la perfección!
+- title: INFORMACIÓN GENERAL DE AKORCHEAS
+  paragraphs:
+    - Akorcheas es una Asociación Musical sin ánimo de lucro nace en un entorno privilegiado. La Sierra Oeste de Madrid, repleta de tesoros naturales, culturales y humanos, cada vez más rica y diversa, es el espacio perfecto para el encuentro vecinal y el desarrollo de las artes, como la MÚSICA.
+    - En este contexto en constante ebullición, tiene su origen Akorcheas. Una Asociación de músicos, técnicos, profesionales y amantes de la música en general, que desean participar en la creación y gestión de espacios de música de calidad, con un amplio abanico que comprende desde las músicas tradicionales de la zona hasta las últimas tendencias.
+- title: NUESTROS OBJETIVOS
+  list:
+    - Promover la cultura y el lenguaje musical como medio de expresión artística
+    - Crear espacios musicales y de ocio juvenil en los municipios de la región
+    - Crear un entorno de personas proactivas interesadas en promover la cultura musical
+    - Fomentar una red de encuentro de artistas, establecer sinergias
+    - Colaborar en la organización de encuentros y festivales musicales y culturales locales
+    - Crear una red de lugares públicos y privados donde, durante todo el año, los músicos de la sierra oeste puedan tocar en condicione dignas, y l@s vecinos puedan disfrutar de música en directo de calidad
+    - En definitiva, buscamos que municipios, músicos, vecin@s, negocios locales, escuelas de música... se beneficien de nuestra actividad, potenciando la sierra oeste y cuidando el entorno.
+- title: CÓMO LO CONSEGUIMOS?
+  paragraphs:
+    - "Akorcheas es un paraguas para que soci@s (músicos o aficionados) y colaboradores no asociados, junto a instituciones públicas y privadas, locales de hostelería, etc… Podamos conseguir que, durante todo el año y no sólo en verano, haya una red y un circuito musical en todos los pueblos de la sierra oeste. Y mucho más:"
+  list:
+    - Realizar encuentros
+    - Programar conciertos
+    - Realizar talleres
+    - Crear red de artistas, profesionales y aficionados
+    - Difundir la cultura musical
+    - Crear espacios culturales y musicales, salas de ensayo, etc.
+- title: SI ERES MÚSICO O PROFESIONAL
+  paragraphs:
+    - Siendo socio, pasas a formar parte de una red de músicos y profesionales de la que pueden salir sinergias, colaboraciones, eventos… Puedes considerar Akorcheas como un paraguas donde hacer llegar tus iniciativas, inquietudes, necesidades… Y realizarlas entre todos con los medios de Akorcheas y el apoyo de lxs socixs.
+    - "Akorcheas tiene entre sus finalidades:"
+  list:
+    - Crear espacios públicos y privados para que puedas actuar, darte a conocer, ensayar…
+    - Poner a tu disposición equipo de sonido técnico y humano para que puedas tocar.
+    - Crear eventos donde nuestros asociados puedan actuar.
+    - Dignificar el sueldo de los músicos, encontrando diferentes fórmulas para ofrecer siempre las mejores condiciones.
+    - Difundir la cultura musical.
+    - Mover tus conciertos y proyectos (en medios de comunicación, radio, prensa, redes, grupos de la zona, contactos, etc).
+  paragraphs2:
+    - Asociarse cuesta 4 € al mes (en dos pagos semestrales o uno anual).
+- title: SI ERES AMANTE DE LA MÚSICA
+  paragraphs:
+    - Asociándote tendrás descuento y gratuidad en los eventos, conciertos y talleres que organice Akorcheas, además de capacidad de decisión y voto en lo que se organice, y la posibilidad de participar activamente en las labores de la Asociación. También acceso a eventos privados exclusivos para socios. Asociarse cuesta 4 € al mes (en dos pagos semestrales o uno anual).
+    - Y, aunque no seas socio, también puedes colaborar con el desarrollo del panorama y circuito musical de la sierra Oeste, contáctanos! Seguro que encontramos la forma de trabajar juntos para que la sierra se llene de buena música, talleres y alternativas de ocio interesantes!
+- title: SI ERES UNA INSTITUCIÓN PÚBLICA
+  paragraphs:
+    - Cuenta con Akorcheas para realizar eventos en tus fiestas patronales, o para gestionar espacios en los que realizar talleres o actuaciones sin ánimo de lucro (por ejemplo, locales de ensayo), programar eventos… Colaborar mano a mano en dar visibilidad a tu municipio y crear espacios culturales para los vecinos.
+    - Akorcheas ya tiene experiencia colaborando con municipios en fiestas patronales, inauguraciones, etc.
+    - ¡Contáctanos!
+- title: SI ERES UNA INSTITUCIÓN PRIVADA O TIENES UN LOCAL
+  paragraphs:
+    - Hay muy diversas maneras de colaborar juntos, desde la esponsorización en eventos (donde publicitaremos tu negocio, la opción ideal para empresas locales, tiendas de música, escuelas privadas de música, estudios de producción, etc) hasta celebrar eventos en tu local, si lo tienes.
+    - 'Puedes contar con Akorcheas para que organicemos algún evento que revierta en beneficio para tu local, sin tener que invertir en equipo de sonido, nos ocupamos de todo, a “mesa puesta”:'
+    - ¡Contáctanos!
+  list:
+    - Buscamos actividades (conciertos, jam, talleres) que puedan ir bien con tu negocio.
+    - "Nos ocupamos de todo de principio a fin: selección de artistas, montaje y desmontaje de sonido, el sonido del concierto, moverlo en redes…"
+    - Atraeremos nueva gente a tu negocio, dándote a conocer a un nuevo público.
+    - Publicitamos el evento.
+    - Hacemos que tu local se llene.
+    - Te ponemos en el mapa de la música en directo.
