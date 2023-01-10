@@ -1,0 +1,14 @@
+---
+layout: default
+title: live_2022-06-25
+legend: image
+relativePath: ../
+pageType: detail
+---
+{% for event in site.data.events_held %}
+  {% if event.eventId == page.title %}
+    <h3 class="pg-title">Concierto 25 Junio 2022</h3>
+    {% include event_detail_header.html detail = event %}
+    {% include carousel.html detail = event %}
+  {% endif %}
+{% endfor %}
