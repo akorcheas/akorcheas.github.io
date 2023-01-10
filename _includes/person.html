@@ -1,0 +1,17 @@
+<div class="pb-4">
+  <div class="post title-border family-oswald container-fluid d-flex flex-column">
+    <h3 class="my-4">{{ include.person.name}} - {{ include.person.job }}</h3>
+    <div class="post family-montserrat container-fluid d-flex flex-md-row flex-column">
+      <div class="col-12 col-md-3 d-flex flex-column align-items-center text-center link-image-container">
+        {% include image_link.html image = include.person.image %}
+      </div>
+      <div class="col-12 col-md-9 mt-3 mt-3 mt-md-0 d-flex flex-column justify-content-md-center">
+        {% for message in include.person.messages %}
+          <p class="post-paragraph">
+            {{ message }}
+          </p>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
