@@ -10,7 +10,7 @@
     - text: Tanto si te apetece tocar como, simplemente disfrutar de buena música en directo, tienes ya una cita! Ve reservando el día!!
       class: text-center family-montserrat mb-4
   alt: Imagen Jam del 14/01/2023
-  elementAnimation: jam_28-01-2023
+  elementAnimation: icon1
   iconColor: color-white
   typeLink: imageLink
 - title: Concierto en vivo 12/02/2023
@@ -24,6 +24,6 @@
     - text: David Herrington es un multiinstrumentista que toca la tuba y la trompeta en varios grupos de Jazz. Su tuba es una parte esencial de la banda, mucho más que un simple sustituto de un bajo.
       class: text-center family-montserrat mb-4
   alt: Imagen concierto en vivo 12/02/2023
-  elementAnimation: live_2023-02-12
+  elementAnimation: icon2
   iconColor: color-white
   typeLink: imageLink

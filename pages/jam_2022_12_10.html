@@ -9,6 +9,7 @@ pageType: detail
   {% if event.eventId == page.title %}
     <h3 class="pg-title">Sesión dj 24 Setiembre 2022</h3>
     {% include event_detail_header.html detail = event %}
+    {% include video.html video = event %}
     {% include carousel.html detail = event %}
   {% endif %}
 {% endfor %}
