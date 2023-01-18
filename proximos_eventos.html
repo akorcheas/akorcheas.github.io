@@ -17,7 +17,7 @@ relativePath:
     <div class="text-center mb-4">
       Calendario eventos: {% for event in site.data.next_events %}
                             {% if forloop.length > 0 %}
-                              <a href="#{{calendarItem.id}}">{{event.date}}</a>
+                              <a href="#{{ event.eventId }}">{{event.date}}</a>
                               {% unless forloop.last %},{% endunless %}
                             {% endif %}
                           {% endfor %}
@@ -31,6 +31,7 @@ relativePath:
           <h5 class="{{eventMessage.class}}">{{eventMessage.text}}</h5>
         {% endfor %}
         {% include image_link.html image = event %}
+        {% include video.html video = event %}
       </div>
     </div>
   {% endfor %}

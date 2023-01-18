@@ -1,7 +1,17 @@
+- title: Concierto en vivo 14/01/2023
+  eventId: live_2023-01-14
+  typeLink: pageLink
+  alt: Imagen concierto en vivo 14/01/2023
+  elementAnimation: icon1
+  iconColor: color-white
+  detailComments:
+    - Desde aquí, agradeceros a todxs los asistentes al concierto, a Elena and Brothers y a La Familia, que confió en la asociación para dar su primer concierto...
+    - Todxs hicisteis que fuera un exitazo!
+  numberPictures: 2
 - title: Jam 10 Diciembre 2022
   eventId: jam_2022_12_10
   typeLink: pageLink
-  elementAnimation: icon1
+  elementAnimation: icon2
   iconColor: color-white
   alt: Imagen Jam 10 Diciembre 2022
   detailComments:
@@ -13,7 +23,7 @@
 - title: Sesión dj 24 Setiembre 2022
   eventId: dj_2022-09-24
   typeLink: pageLink
-  elementAnimation: icon2
+  elementAnimation: icon3
   iconColor: color-white
   alt: Imagen Sesión dj 24 Setiembre 2022
   detailComments:
@@ -22,7 +32,7 @@
 - title: Jam 10 Setiembre 2022
   eventId: jam_2022-09-10
   typeLink: pageLink
-  elementAnimation: icon3
+  elementAnimation: icon4
   iconColor: color-white
   alt: Imagen Jam 10 Setiembre 2022
   detailComments:
@@ -32,7 +42,7 @@
 - title: Concierto 3 Julio 2022
   eventId: live_2022-07-03
   typeLink: imageLink
-  elementAnimation: icon4
+  elementAnimation: icon5
   iconColor: color-white
   alt: Imagen Concierto 3 Julio 2022
   detailComments:
@@ -42,7 +52,7 @@
 - title: Concierto 25 Junio 2022
   eventId: live_2022-06-25
   typeLink: pageLink
-  elementAnimation: icon5
+  elementAnimation: icon6
   iconColor: color-white
   alt: Imagen Concierto 25 Junio 2022
   detailComments:

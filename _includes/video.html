@@ -1,0 +1,8 @@
+<div class="post d-flex justify-content-center pb-5">
+  {% assign videoFolder = site.data.constants.eventsHeldUrl %}
+  {% capture videoUrl %}{{ page.relativePath }}{{ videoFolder }}carousel/{{ include.video.eventId }}/{{ include.video.eventId }}_v1.mp4{% endcapture %}
+  <video controls class="col-10">
+    <source src="{{ videoUrl }}" type="video/mp4">
+    <a href="{{ videoUrl }}">Descargar video</a>
+  </video>
+</div>

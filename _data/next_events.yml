@@ -1,15 +1,20 @@
-- title: Concierto en vivo 14/01/2023
-  eventId: live_14-01-2023
-  date: 14/01/2023
+
+- title: Jam el 28/01/2023
+  eventId: jam_2023-01-28
+  date: 28/01/2023
   messages:
-    - text: No te pierdas el mejor blues, Ritmh and blues y soul de la mano de Elena & Brothers el próximo 14 de enero!!!
+    - text: Y, el próximo sábado, 28 de enero...
       class: text-center family-montserrat mb-4
-  alt: Imagen concierto en vivo 14/01/2023
+    - text: De nuevo,  Jam session de Akorcheas en Sin Antena, Aldea del Fresno!
+      class: text-center family-montserrat mb-4
+    - text: Tanto si te apetece tocar como, simplemente disfrutar de buena música en directo, tienes ya una cita! Ve reservando el día!!
+      class: text-center family-montserrat mb-4
+  alt: Imagen Jam del 14/01/2023
   elementAnimation: icon1
   iconColor: color-white
   typeLink: imageLink
 - title: Concierto en vivo 12/02/2023
-  eventId: live_12-02-2023
+  eventId: live_2023-02-12
   date: 12/02/2023
   messages:
     - text: Smiling Jack Smith es originario de la ciudad de Nueva York. Se mudó a España hace 28 años después de vivir 20 años en Vancouver, Canadá. Jack ha editado 7 CDs en España y ha tocado su música en clubs y festivales de 3 continentes.
