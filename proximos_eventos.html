@@ -31,7 +31,7 @@ relativePath:
           <h5 class="{{eventMessage.class}}">{{eventMessage.text}}</h5>
         {% endfor %}
         {% include image_link.html image = event %}
-        {% include video.html video = event %}
+        {% if event.video %}{% include video.html video = event %}{% endif %}
       </div>
     </div>
   {% endfor %}
