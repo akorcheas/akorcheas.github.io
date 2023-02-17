@@ -1,8 +1,30 @@
+- title: Concierto en vivo 12/02/2023
+  eventId: live_2023-02-12
+  typeLink: pageLink
+  alt: Imagen concierto en vivo 12/02/2023
+  elementAnimation: live_2023-02-12
+  iconColor: color-white
+  detailComments:
+  - El pasado 12 de febrero de 2023, tuvimos el honor de poder ver a  tres grandes coml Smiling Jack Smith, David Gwynn y David Herrington en el Bar Cinema de Chapinería.
+  - Gracias a todxs los que vinisteis a disfrutarlo! Fue un concierto muy especial, todos disfrutamos muchísimo y los músicos se fueron felices y agradeciendo el calor recibido por parte de todos los asistentes.
+  - Smiling Jack Smith es originario de la ciudad de Nueva York. Se mudó a España hace 28 años después de vivir 20 años en Vancouver, Canadá. Jack ha editado 7 CDs en España y ha tocado su música en clubs y festivales de 3 continentes.
+  - David Gwynn es un guitarrista polifacético de California que ha trabajado con algunos de los artistas más conocidos de España y tiene el Blues en lo más profundo de su corazón. Ha trabajado con Jack en sus últimos tres CD.
+  - David Herrington es un multiinstrumentista que toca la tuba y la trompeta en varios grupos de Jazz. Su tuba es una parte esencial de la banda, mucho más que un simple sustituto de un bajo.
+  numberPictures: 10
+  numberVideos: 1
+- title: Jam el 28/01/2023
+  eventId: jam_2023-01-28
+  typeLink: imageLink
+  alt: Imagen Jam del 14/01/2023
+  elementAnimation: jam_2023-01-28
+  iconColor: color-white
+  detailComments:
+  numberPictures: 0
 - title: Concierto en vivo 14/01/2023
   eventId: live_2023-01-14
   typeLink: pageLink
   alt: Imagen concierto en vivo 14/01/2023
-  elementAnimation: icon1
+  elementAnimation: live_2023-01-14
   iconColor: color-white
   detailComments:
     - Desde aquí, agradeceros a todxs los asistentes al concierto, a Elena and Brothers y a La Familia, que confió en la asociación para dar su primer concierto...

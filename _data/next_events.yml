@@ -1,29 +1,17 @@
 
-- title: Jam el 28/01/2023
-  eventId: jam_2023-01-28
-  date: 28/01/2023
+- title: Concierto 25/02/2023
+  eventId: live_2023-02-25
+  date: 25/02/2023
   messages:
-    - text: Y, el próximo sábado, 28 de enero...
+    - text: Y, el próximo sábado, 25 de febrero...
       class: text-center family-montserrat mb-4
-    - text: De nuevo,  Jam session de Akorcheas en Sin Antena, Aldea del Fresno!
+    - text: 🎶🎙RITHM AND BLUES EN LA FAMILIA! 🎺🎸
       class: text-center family-montserrat mb-4
-    - text: Tanto si te apetece tocar como, simplemente disfrutar de buena música en directo, tienes ya una cita! Ve reservando el día!!
+    - text: "Tras el exitazo del primer concierto en esta sala, volvemos a La Familia en Navas del Rey con un estupendo trío de versiones de rhythm and blues: THE TIME! 🎸🎸"
       class: text-center family-montserrat mb-4
-  alt: Imagen Jam del 14/01/2023
+    - text: "A algunos de los componentes ya les conocéis: son Jesús, Andrés Sánchez y Jorge de León, que se encuentran grabando disco... Y que lo van a dar todo en el próximo concierto! 🎶"
+      class: text-center family-montserrat mb-4
+  alt: Imagen concierto del 25/02/2023
   elementAnimation: icon1
-  iconColor: color-white
-  typeLink: imageLink
-- title: Concierto en vivo 12/02/2023
-  eventId: live_2023-02-12
-  date: 12/02/2023
-  messages:
-    - text: Smiling Jack Smith es originario de la ciudad de Nueva York. Se mudó a España hace 28 años después de vivir 20 años en Vancouver, Canadá. Jack ha editado 7 CDs en España y ha tocado su música en clubs y festivales de 3 continentes.
-      class: text-center family-montserrat mb-4
-    - text: David Gwynn es un guitarrista polifacético de California que ha trabajado con algunos de los artistas más conocidos de España y tiene el Blues en lo más profundo de su corazón. Ha trabajado con Jack en sus últimos tres CD.
-      class: text-center family-montserrat mb-4
-    - text: David Herrington es un multiinstrumentista que toca la tuba y la trompeta en varios grupos de Jazz. Su tuba es una parte esencial de la banda, mucho más que un simple sustituto de un bajo.
-      class: text-center family-montserrat mb-4
-  alt: Imagen concierto en vivo 12/02/2023
-  elementAnimation: icon2
   iconColor: color-white
   typeLink: imageLink
