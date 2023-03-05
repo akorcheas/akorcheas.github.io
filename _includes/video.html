@@ -1,13 +1,30 @@
-<div class="post d-flex justify-content-center pb-5">
+<div class="post d-flex flex-column justify-content-center align-items-center pb-5">
   {% assign videoFolder = site.data.constants.eventsHeldUrl %}
   {% if page.title == 'Inicio'%}
     {% assign videoId = 'home' %}
   {% else '%}
     {% assign videoId =  include.video.eventId %}
   {% endif '%}
-  {% capture videoUrl %}{{ page.relativePath }}{{ videoFolder }}carousel/{{ videoId }}/{{ videoId }}_v1.mp4{% endcapture %}
-  <video controls class="col-10">
-    <source src="{{ videoUrl }}" type="video/mp4">
-    <a href="{{ videoUrl }}">Descargar video</a>
-  </video>
+  {% if include.video.numberVideos && include.video.numberVideos != 1 %}
+    {% assign num = include.video.numberVideos | minus: 1 %}
+    {% assign range = (0..num) %}
+    <div class="post title-border family-oswald container-fluid d-flex flex-column">
+      <h3 class="my-4">Videos Relacionados</h3>
+    </div>
+    {% for i in range %}
+      {% capture videoUrl %}{{ page.relativePath }}{{ videoFolder }}carousel/{{ videoId }}/{{ videoId }}_v{% endcapture %}
+      <div class="d-flex w-100 justify-content-center align-items-center">
+        <video class="col-10" controls autoplay>
+          <source src="{{ videoUrl }}" type="video/mp4">
+          <a href="{{ videoUrl }}{{i | plus:1 }}.mp4">Descargar video</a>
+        </video>
+      </div>
+    {% endfor %}
+  {% else '%}
+    {% capture videoUrl %}{{ page.relativePath }}{{ videoFolder }}carousel/{{ videoId }}/{{ videoId }}_v1.mp4{% endcapture %}
+    <video class="col-10" controls autoplay>
+      <source src="{{ videoUrl }}" type="video/mp4">
+      <a href="{{ videoUrl }}">Descargar video</a>
+    </video>
+  {% endif '%}
 </div>

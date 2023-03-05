@@ -1,3 +1,16 @@
+- title: Concierto en vivo 25/02/2023
+  eventId: live_2023-02-25
+  typeLink: pageLink
+  alt: Imagen concierto en vivo 25/02/2023
+  elementAnimation: live_2023-02-25
+  iconColor: color-white
+  detailComments:
+  - 🎶🎙RITHM AND BLUES EN LA FAMILIA! 🎺🎸
+  - "Tras el exitazo del primer concierto en esta sala, volvemos a La Familia en Navas del Rey con un estupendo trío de versiones de rhythm and blues: THE TIME! 🎸🎸"
+  - "A algunos de los componentes ya les conocéis: son Jesús, Andrés Sánchez y Jorge de León, que se encuentran grabando disco... Y que lo van a dar todo en el próximo concierto! 🎶"
+  - Aquí sólo una pequeña muestra de lo que The TIME Blues Nos hizo disfrutar el pasado sábado 25 de Febrero!! Más temas completos en su canal de youtube. Gracias a todxs por estar!!
+  numberPictures: 10
+  numberVideos: 8
 - title: Concierto en vivo 12/02/2023
   eventId: live_2023-02-12
   typeLink: pageLink
@@ -31,7 +44,7 @@
     - Todxs hicisteis que fuera un exitazo!
   numberPictures: 2
 - title: Jam 10 Diciembre 2022
-  eventId: jam_2022_12_10
+  eventId: jam_2022-12-10
   typeLink: pageLink
   elementAnimation: icon2
   iconColor: color-white
