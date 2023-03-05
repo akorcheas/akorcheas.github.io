@@ -1,17 +1,13 @@
 
-- title: Concierto 25/02/2023
-  eventId: live_2023-02-25
-  date: 25/02/2023
+- title: Concierto 11/03/2023
+  eventId: live_2023-03-11
+  date: 11/03/2023
   messages:
-    - text: Y, el próximo sábado, 25 de febrero...
+    - text: Y, el próximo sábado, 11 de Marzo...
       class: text-center family-montserrat mb-4
-    - text: 🎶🎙RITHM AND BLUES EN LA FAMILIA! 🎺🎸
+    - text: Animate a acudir a este Encuentro musical !!!
       class: text-center family-montserrat mb-4
-    - text: "Tras el exitazo del primer concierto en esta sala, volvemos a La Familia en Navas del Rey con un estupendo trío de versiones de rhythm and blues: THE TIME! 🎸🎸"
-      class: text-center family-montserrat mb-4
-    - text: "A algunos de los componentes ya les conocéis: son Jesús, Andrés Sánchez y Jorge de León, que se encuentran grabando disco... Y que lo van a dar todo en el próximo concierto! 🎶"
-      class: text-center family-montserrat mb-4
-  alt: Imagen concierto del 25/02/2023
+  alt: Imagen concierto del 11/03/2023
   elementAnimation: icon1
   iconColor: color-white
   typeLink: imageLink
