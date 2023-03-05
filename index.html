@@ -3,6 +3,15 @@ layout: default
 title: Inicio
 relativePath:
 ---
+<div class="banner container-fluid d-flex flex-column py-4 px-0">
+  <h1 class="text-center family-oswald pb-3">Vamos a inundarlo todo de BUENA MÚSICA  🎵🎶</h1>
+  <!-- <img src="assets/img/bg-home.png" alt="Imagen músicos tocando" class="mx-auto img-fluid col-8"> -->
+  {% include video.html video = event %}
+  <h2 class="text-center family-oswald pt-3">¡La sierra oeste de Madrid se mueve!</h2>
+</div>
+<script>
+  document.getElementById('v1').play();
+</script>
 <h1 class="my-4 text-center">Que és Akorcheas</h1>
 <div class="pb-4">
   <div class="post family-oswald container-fluid d-flex flex-column">
@@ -20,11 +29,4 @@ relativePath:
       </p>
     </div>
   </div>
-</div>
-<h3 class="my-4 text-center">Feliz entrada de 2023!!! 🎵🎶</h3>
-<div class="banner container-fluid d-flex flex-column py-4 px-0">
-  <h1 class="text-center family-oswald pb-3">Vamos a inundarlo todo de BUENA MÚSICA</h1>
-  <!-- <img src="assets/img/bg-home.png" alt="Imagen músicos tocando" class="mx-auto img-fluid col-8"> -->
-  {% include video.html video = event %}
-  <h2 class="text-center family-oswald pt-3">¡La sierra oeste de Madrid se mueve!</h2>
 </div>
