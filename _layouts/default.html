@@ -41,8 +41,9 @@
     <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js'></script> -->
 
     <meta name="theme-color" content="#fafafa">
-  </head>
 
+    {% include analytics.html %}
+  </head>
   <body>
     <div class="container body-content px-0">
       <header>
@@ -73,14 +74,6 @@
 
       gtag('config', 'G-04J06YVYJT');
     </script> -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LFPH5PBPH7"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-LFPH5PBPH7');
-    </script>
     <!-- Cookie notice -->
     <script src="{{ page.relativePath }}js/cookie.notice.min.js"></script>
     <script src="{{ page.relativePath }}js/cookie.notice.config.js"></script>
