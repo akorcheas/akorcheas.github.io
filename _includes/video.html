@@ -14,7 +14,7 @@
     {% for i in range %}
       {% capture videoUrl %}{{ page.relativePath }}{{ videoFolder }}carousel/{{ videoId }}/{{ videoId }}_v{% endcapture %}
       <div class="d-flex w-100 justify-content-center align-items-center">
-        <video class="col-10" controls autoplay>
+        <video class="col-10" controls>
           <source src="{{ videoUrl }}" type="video/mp4">
           <a href="{{ videoUrl }}{{i | plus:1 }}.mp4">Descargar video</a>
         </video>
@@ -22,7 +22,7 @@
     {% endfor %}
   {% else '%}
     {% capture videoUrl %}{{ page.relativePath }}{{ videoFolder }}carousel/{{ videoId }}/{{ videoId }}_v1.mp4{% endcapture %}
-    <video id="v1" class="col-10" controls autoplay>
+    <video id="v1" class="col-10" controls playsinline autoplay muted>
       <source src="{{ videoUrl }}" type="video/mp4">
       <a href="{{ videoUrl }}">Descargar video</a>
     </video>
