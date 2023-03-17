@@ -13,6 +13,9 @@ defaults:
     values:
       layout: "default"
 
+# Google Analytics
+google_analytics: G-LFPH5PBPH7
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
