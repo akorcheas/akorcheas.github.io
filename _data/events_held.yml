@@ -1,3 +1,11 @@
+- title: Concierto 11/03/2023
+  eventId: live_2023-03-11
+  alt: Imagen concierto del 11/03/2023
+  elementAnimation: live_2023-03-11
+  iconColor: color-white
+  typeLink: imageLink
+  numberPictures: 0
+  numberVideos: 0
 - title: Concierto en vivo 25/02/2023
   eventId: live_2023-02-25
   typeLink: pageLink
@@ -18,11 +26,11 @@
   elementAnimation: live_2023-02-12
   iconColor: color-white
   detailComments:
-  - El pasado 12 de febrero de 2023, tuvimos el honor de poder ver a  tres grandes coml Smiling Jack Smith, David Gwynn y David Herrington en el Bar Cinema de Chapinería.
-  - Gracias a todxs los que vinisteis a disfrutarlo! Fue un concierto muy especial, todos disfrutamos muchísimo y los músicos se fueron felices y agradeciendo el calor recibido por parte de todos los asistentes.
-  - Smiling Jack Smith es originario de la ciudad de Nueva York. Se mudó a España hace 28 años después de vivir 20 años en Vancouver, Canadá. Jack ha editado 7 CDs en España y ha tocado su música en clubs y festivales de 3 continentes.
-  - David Gwynn es un guitarrista polifacético de California que ha trabajado con algunos de los artistas más conocidos de España y tiene el Blues en lo más profundo de su corazón. Ha trabajado con Jack en sus últimos tres CD.
-  - David Herrington es un multiinstrumentista que toca la tuba y la trompeta en varios grupos de Jazz. Su tuba es una parte esencial de la banda, mucho más que un simple sustituto de un bajo.
+    - El pasado 12 de febrero de 2023, tuvimos el honor de poder ver a  tres grandes coml Smiling Jack Smith, David Gwynn y David Herrington en el Bar Cinema de Chapinería.
+    - Gracias a todxs los que vinisteis a disfrutarlo! Fue un concierto muy especial, todos disfrutamos muchísimo y los músicos se fueron felices y agradeciendo el calor recibido por parte de todos los asistentes.
+    - Smiling Jack Smith es originario de la ciudad de Nueva York. Se mudó a España hace 28 años después de vivir 20 años en Vancouver, Canadá. Jack ha editado 7 CDs en España y ha tocado su música en clubs y festivales de 3 continentes.
+    - David Gwynn es un guitarrista polifacético de California que ha trabajado con algunos de los artistas más conocidos de España y tiene el Blues en lo más profundo de su corazón. Ha trabajado con Jack en sus últimos tres CD.
+    - David Herrington es un multiinstrumentista que toca la tuba y la trompeta en varios grupos de Jazz. Su tuba es una parte esencial de la banda, mucho más que un simple sustituto de un bajo.
   numberPictures: 10
   numberVideos: 1
 - title: Jam el 28/01/2023
