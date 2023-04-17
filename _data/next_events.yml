@@ -1,31 +1,21 @@
 
-- title: Concierto 25/03/2023
-  eventId: live_2023-03-25
-  date: 25/03/2023
+- title: Concierto 28/04/2023
+  eventId: live_2023-04-28
+  date: 28/04/2023
   messages:
-    - text: 💥El próximo sábado, 25 de marzo, Akorcheas Asociación Musical organiza un día de música en Dulce Evolución! 💥
-      class: text-center family-montserrat mb-
-    - text: Ven a conocer la Asociación y a disfrutar de un día de música para toda la familia en un espacio alucinante!
+    - text: 💥 Desde Akorcheas tenemos un CONCIERTAZO preparado para ti! 💥
       class: text-center family-montserrat mb-4
-    - text: "Horario:"
+    - text: 🎺Con motivo del del día Jazz, el 28 de abril dos de los músicos más representativos del panorama nacional ofrecerán su directo en Sin Antena! Una oportunidad única! 🎺
       class: text-center family-montserrat mb-4
-    - text: 🎸12:30 h Bone to Boogie (Blues)
+    - text: NU2 reúne a dos aclamados músicos de dos generaciones diferentes del jazz para ofrecernos una propuesta muy particular.
       class: text-center family-montserrat mb-4
-    - text: 🎵14:00 h Presentación Akorcheas
+    - text: 🎵 El contrabajista gallego Baldo Martínez, con una sólida carrera a sus espaldas llena de proyectos arriesgados y creativos.
       class: text-center family-montserrat mb-4
-    - text: 🎸16:00 h Elena & Brothers (Rock/ Soul)
+    - text: 🎵 Juan Saiz, uno de los músicos emergentes de las nuevas hornadas del jazz y la música creativa en España.
       class: text-center family-montserrat mb-4
-    - text: 💿17:30 h Kilombo pinchadiscos  ( worldbeat, funk, ska )
+    - text: La música de NU2 abarca un amplio abanico, desde las músicas tradicionales hasta composiciones originales basadas en diversas tendencias del Jazz contemporáneo mas abierto.
       class: text-center family-montserrat mb-4
-    - text: "🏠Lugar: Espacio Dulce Evolución, Fresnedillas de la Oliva Camino de Navahonda S/N, Finca La Cabezuela"
-      class: text-center family-montserrat mb-4
-    - text: "🎟Aportación consciente:"
-      class: text-center family-montserrat mb-4
-    - text: "Jornada completa: 8€ general, 6€ socios Akorcheas, niñ@s gratis"
-      class: text-center family-montserrat mb-4
-    - text: "Sesión tarde (a partir de las 16h): 5€ General, 3€socios Akorcheas, niñ@s gratis"
-      class: text-center family-montserrat mb-4
-  alt: Imagen concierto del25/03/2023
+  alt: Imagen concierto del 28/04/2023
   elementAnimation: icon1
   iconColor: color-white
   typeLink: imageLink
