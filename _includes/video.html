@@ -1,5 +1,10 @@
 <div class="post d-flex flex-column justify-content-center align-items-center pb-5">
-  {% assign videoFolder = site.data.constants.eventsHeldUrl %}
+  {% case page.title %}
+    {% when "Próximos eventos" %}
+      {% assign videoFolder = site.data.constants.nextEvents %}
+    {% else %}
+      {% assign videoFolder = site.data.constants.eventsHeldUrl %}
+  {% endcase %}
   {% if page.title == 'Inicio'%}
     {% assign videoId = 'home' %}
   {% else '%}
