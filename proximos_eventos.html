@@ -23,14 +23,17 @@ relativePath:
                           {% endfor %}
     </div>
   </div>
+  {% assign logoFolder = site.data.constants.nextEvents %}
   {% for event in site.data.next_events %}
     <div id="{{ event.eventId }}" class="pb-4">
-      <div class="post title-border family-oswald container-fluid d-flex flex-column">
-        <h3 class="my-4">{{event.title}}</h3>
+      <div class="post title-border{% if event.logo %}-logo{% endif %} family-oswald container-fluid d-flex flex-column">
+        {% capture logoUrl %}{{ page.relativePath }}{{ logoFolder }}logos/{{ event.logo }}{% endcapture %}
+        <div class="d-flex flex-row justify-content-start my-4">{% if event.logo %}<img class="logo me-2" alt="{{event.altLogo}}" src="{{logoUrl}}.png">{% endif %}<h3 class="my-0">{{event.title}}</h3></div>
         {% for eventMessage in event.messages %}
           <h5 class="{{eventMessage.class}}">{{eventMessage.text}}</h5>
         {% endfor %}
         {% include image_link.html image = event %}
+        {% if event.link %}<div class="container-fluid d-flex flex-row justify-content-center my-2"><a class="link" href="{{event.link}}" target="_blank">{{event.link}}</a></div>{% endif %}
         {% if event.video %}{% include video.html video = event %}{% endif %}
       </div>
     </div>
