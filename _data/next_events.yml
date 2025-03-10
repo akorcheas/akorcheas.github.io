@@ -1,21 +1,22 @@
 
-- title: Concierto 28/04/2023
-  eventId: live_2023-04-28
-  date: 28/04/2023
+- title: Apertura Sala Oeste Chapinería 10/05/2025
+  eventId: apertura_sala_oeste
+  logo: salaoeste
+  date: 10/05/2025
   messages:
-    - text: 💥 Desde Akorcheas tenemos un CONCIERTAZO preparado para ti! 💥
+    - text: 💥 Desde Akorcheas os presentamos la apertura de la Sala Oeste en Chapinería! 💥
       class: text-center family-montserrat mb-4
-    - text: 🎺Con motivo del del día Jazz, el 28 de abril dos de los músicos más representativos del panorama nacional ofrecerán su directo en Sin Antena! Una oportunidad única! 🎺
+    - text: Sala Oeste es un espacio cultural abierto que impulsa la creatividad, la colaboración y el intercambio de ideas.
       class: text-center family-montserrat mb-4
-    - text: NU2 reúne a dos aclamados músicos de dos generaciones diferentes del jazz para ofrecernos una propuesta muy particular.
+    - text: Más que un lugar, es una comunidad donde personas de todas las edades pueden proponer, crear y participar en diversas actividades.
       class: text-center family-montserrat mb-4
-    - text: 🎵 El contrabajista gallego Baldo Martínez, con una sólida carrera a sus espaldas llena de proyectos arriesgados y creativos.
+    - text: Nos organizamos mediante Círculos Colaborativos, fomentando el trabajo en equipo, la autonomía y la participación activa.
       class: text-center family-montserrat mb-4
-    - text: 🎵 Juan Saiz, uno de los músicos emergentes de las nuevas hornadas del jazz y la música creativa en España.
+    - text: Cultura, creatividad y comunidad en un mismo lugar.
       class: text-center family-montserrat mb-4
-    - text: La música de NU2 abarca un amplio abanico, desde las músicas tradicionales hasta composiciones originales basadas en diversas tendencias del Jazz contemporáneo mas abierto.
-      class: text-center family-montserrat mb-4
-  alt: Imagen concierto del 28/04/2023
+  altLogo: Logo Sala Oeste
+  link: https://sala-oeste.com/
   elementAnimation: icon1
   iconColor: color-white
   typeLink: imageLink
+  video: salaoeste_v1

@@ -7,6 +7,23 @@
     border-bottom: 2px solid #999;
     padding-bottom: 5px;
   }
+  &.title-border-logo>div:first-child {
+    text-align: left;
+    border-bottom: 2px solid #999;
+    padding-bottom: 5px;
+    h3{
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+    }
+    .logo{
+      max-width: 50px;
+      max-height: 50px;
+      display: flex;
+      align-self: center;
+      flex-direction: column;
+    }
+  }
   .post-paragraph {
     padding-left: 14px;
   }
